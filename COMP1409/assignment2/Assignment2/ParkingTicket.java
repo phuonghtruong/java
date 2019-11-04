@@ -26,7 +26,13 @@ public class ParkingTicket
         carLicensePlateNumber = "unknown";
         fineAmountInCAD = 0.0;
     }
-    
+    /**
+     * Constructor for objects of class ParkingTicket
+     * @para inputOfficerName to set officerName
+     * @para inputOfficerBadgeNumber to set officerBadgeNumber
+     * @para carLicensePlateNumber to set license plate number
+     * @para fine to set fine amount
+     */
     public ParkingTicket(String inputOfficerName, String inputOfficerBadgeNumber, 
                             String carLicensePlateNumber, double fine)
     {
@@ -38,12 +44,18 @@ public class ParkingTicket
         setFineAmountInCAD(fine);
         setTicketNumber();
     }
-
+    /**
+     * Mutator method setOfficer
+     * @para officeName to set officerName of PoliceOfficer object
+     * @para officerBadgeNumber to set officerBadgeNumber of PoliceOfficer object
+     */
     public void setOfficer(String officerName, String officerBadgeNumber){        
        officer = new PoliceOfficer(officerName, officerBadgeNumber); 
-
     }
-    
+    /**
+     * Accessor method to getOfficer
+     * @return officer
+     */
     public PoliceOfficer getOfficer(){
         return officer;
     }
@@ -65,7 +77,10 @@ public class ParkingTicket
             // this.officerBadgeNumber = officerBadgeNumber;
         
     // }
-    
+    /**
+     * Mutator method to setCarLicensePlateNumber
+     * @para carLicensePlateNumber to set car license plate number
+     */
     public void setCarLicensePlateNumber(String carLicensePlateNumber){
         if(carLicensePlateNumber == null)
             throw new IllegalArgumentException("car license plate number must not be null");
@@ -74,12 +89,17 @@ public class ParkingTicket
         else
             this.carLicensePlateNumber = carLicensePlateNumber;
     }
-    
+    /**
+     * method to set ticket number
+     */
     public void setTicketNumber(){
         counter++;
         this.ticketNumber = TICKET_PREFIX + counter;
     }
-    
+    /**
+     * method to set fine amount
+     * @para fineAmountInCAD
+     */
     public void setFineAmountInCAD(double fineAmountInCAD){
         if(fineAmountInCAD < 0){
             throw new IllegalArgumentException("fine amount must not be negative");
@@ -91,27 +111,44 @@ public class ParkingTicket
             this.fineAmountInCAD = fineAmountInCAD;
         }
     }
-    
+    /**
+     * Accessor method to getOfficerName
+     * @return officerName
+     */
     public String getOfficerName(){
         return officer.getOfficerName();
     }
-    
+    /**
+     * Accessor method to getOfficerBadgeNumber
+     * @return officerBadgeNumber
+     */
     public String getOfficerBadgeNumber(){
         return officer.getOfficerBadgeNumber();
     }
-    
+    /**
+     * Accessor method to getCarLicensePlateNumber
+     * @return carLicensePlateNumber
+     */
     public String getCarLicensePlateNumber(){
         return carLicensePlateNumber;
     }
-    
+    /**
+     * Accessor method to getTicketNumber
+     * @return ticketNumber
+     */
     public String getTicketNumber(){
         return ticketNumber;
     }
-    
+    /**
+     * Accessor method to getFineAmountInCAD
+     * @return fineAmountInCAD
+     */
     public double getFineAmountInCAD(){
         return fineAmountInCAD;
     }
-    
+    /**
+     * Method display details
+     */
     public void displayDetails(){
         System.out.println("Ticket Number: " + getTicketNumber());
         System.out.println("Officer Name: " + officer.getOfficerName());
@@ -119,7 +156,9 @@ public class ParkingTicket
         System.out.println("Car License Plate Number: " + getCarLicensePlateNumber());
         System.out.println("Fine amount: " + getFineAmountInCAD());
     }
-    
+    /**
+     * Method to resetCounter
+     */
     public static void resetCounter(){
         counter = 1000;
     }
