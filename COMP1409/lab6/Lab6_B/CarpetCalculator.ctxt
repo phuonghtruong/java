@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=CarpetCalculator
+comment0.text=\n\ Write\ a\ description\ of\ class\ CarpetCalculator\ here.\n\n\ @author\ Brian\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=price\ iRoom
+comment1.target=CarpetCalculator(double,\ Room)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ CarpetCalculator\n
+comment2.params=
+comment2.target=Room\ getRoom()
+comment2.text=\n\ Accessor\ method\ for\ getRoom\n\ @return\ object\ room\n
+comment3.params=
+comment3.target=double\ getPricePerSquareFoot()
+comment3.text=\n\ Accessor\ method\ for\ getPricePerSquareFoot\n\ @return\ pricePerSquareFoot\n
+comment4.params=price
+comment4.target=void\ setPricePerSquareFoot(double)
+comment4.text=\n\ Mutator\ method\ for\ setPricePerSquareFoot\n\ @param\ price\ to\ set\ pricePerSquareFoot\n
+comment5.params=iRoom
+comment5.target=void\ setRoom(Room)
+comment5.text=\n\ mutator\ method\ for\ setRoom\n\ @param\ iRoom\ to\ set\ object\n
+comment6.params=
+comment6.target=double\ calculateTotalCost()
+comment6.text=\n\ Method\ calculateTotalCost\n\ @return\ totalCost\n
+comment7.params=
+comment7.target=void\ displayInfo()
+comment7.text=\n\ Method\ displayInfo\n
+numComments=8

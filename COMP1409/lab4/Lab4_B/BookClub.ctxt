@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=BookClub
+comment0.text=\n\ Write\ a\ description\ of\ class\ BookClub\ here.\n\n\ @author\ Brian\n\ @version\ 1.0\n\ @date\ Sep\ 28,\ 2019\n
+comment1.params=cName\ numberOfPurchasedBooks
+comment1.target=BookClub(java.lang.String,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ BookClub\n
+comment2.params=
+comment2.target=java.lang.String\ getClientName()
+comment2.text=\n\ Accessor\ method\ for\ client\ name\n\ @return\ clientName\n
+comment3.params=
+comment3.target=int\ getNumberOfPurchasedBooksPerMonth()
+comment3.text=\n\ Accessor\ method\ for\ number\ of\ purchased\ books\ per\ month\n\ @return\ numberOfPurchasedBooksPerMonth\n
+comment4.params=cName
+comment4.target=void\ setClientName(java.lang.String)
+comment4.text=\n\ Mutator\ method\ for\ set\ client\ name\n\ @param\ cName\ to\ set\ client\ name\n
+comment5.params=numberOfPurchasedBooks
+comment5.target=void\ setNumberOfPurchasedBooksPerMonth(int)
+comment5.text=\n\ Mutator\ method\ for\ set\ number\ of\ purchased\ books\ per\ month\n\ @param\ numberOfPurchasedBooks\n
+comment6.params=
+comment6.target=int\ getTotalNumberOfSoldBooks()
+comment6.text=\n\ static\ method\n\ @return\ totalNumberOfSoldBooks\n
+comment7.params=
+comment7.target=int\ calculateBookPoints()
+comment7.text=\n\ Method\ calculate\ book\ points\n\n\ @return\ \ \ \ numberOfPoints\n
+numComments=8

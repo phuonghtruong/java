@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\n\ Write\ a\ description\ of\ class\ Student\ here.\n\n\ @author\ Brian\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=studentName
+comment1.target=Student(java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Student\n
+comment2.params=studentName
+comment2.target=void\ setName(java.lang.String)
+comment2.text=\n\ Mutator\ method\ to\ setName\n\ @para\ studentName\ to\ set\ student\ name\n
+comment3.params=
+comment3.target=void\ promptStudentMarks()
+comment3.text=\n\ Method\ to\ prompt\ student\ marks\n
+comment4.params=
+comment4.target=java.lang.String\ getName()
+comment4.text=\n\ Accessor\ method\ to\ getName\n\ @return\ studentName\n
+comment5.params=
+comment5.target=double\ calculateAverageMark()
+comment5.text=\n\ Method\ to\ calculate\ average\ mark\n\ @return\ average\ mark\n
+comment6.params=
+comment6.target=int\ calculateTotalPassedExams()
+comment6.text=\n\ Method\ to\ calculate\ total\ passed\ exams\n\ @return\ numberOfPassExams\n
+comment7.params=
+comment7.target=boolean\ isPassed()
+comment7.text=\n\ Method\ to\ check\ if\ student\ pass\ all\ exams\n\ @return\ boolean\n
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

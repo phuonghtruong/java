@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MathUtilities
+comment0.text=\n\ Write\ a\ description\ of\ class\ MathUtilities\ here.\n\n\ @author\ Brian\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=base\ exponent
+comment1.target=int\ power(int,\ int)
+comment1.text=\n\ Static\ method\ power\n\n\ @param\ base\ to\ set\ base\n\ @param\ exponent\ to\ set\ exponent\n\ @return\ result\n
+comment2.params=firstNumber\ operation\ secondNumber
+comment2.target=void\ calculator(double,\ char,\ double)
+comment2.text=\n\ Method\ calculator\n\ @param\ firstNumber\ to\ set\ the\ first\ number\n\ @param\ secondNumber\ to\ set\ the\ second\ number\n\ @param\ operation\ to\ set\ the\ operation\n
+comment3.params=number
+comment3.target=double\ sumOddNumbers(int)
+comment3.text=\n\ Static\ method\ sumOddNumbers\n\ @param\ number\ to\ set\ number\n
+comment4.params=number
+comment4.target=void\ displaySquareNumbers(int)
+comment4.text=\n\ static\ method\ to\ display\ square\ number\n\ @param\ number\ to\ set\ number\n
+comment5.params=number
+comment5.target=void\ getFactorial(int)
+comment5.text=\n\ static\ method\ to\ get\ Factorial\n\ @param\ number\ to\ set\ number\n
+numComments=6

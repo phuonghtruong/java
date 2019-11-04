@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=PoliceOfficer
+comment0.text=\n\ Write\ a\ description\ of\ class\ PoliceOfficer\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=PoliceOfficer()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ PoliceOfficer\n
+comment2.params=officerName\ officerBadgeNumber
+comment2.target=PoliceOfficer(java.lang.String,\ java.lang.String)
+comment3.params=officerName
+comment3.target=void\ setOfficerName(java.lang.String)
+comment4.params=officerBadgeNumber
+comment4.target=void\ setOfficerBadgeNumber(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getOfficerName()
+comment6.params=
+comment6.target=java.lang.String\ getOfficerBadgeNumber()
+comment7.params=car\ meter
+comment7.target=boolean\ isParkingTimeExpired(ParkedCar,\ ParkingMeter)
+comment8.params=car\ meter
+comment8.target=double\ calculateFine(ParkedCar,\ ParkingMeter)
+comment9.params=car\ meter
+comment9.target=ParkingTicket\ issueParkingTicket(ParkedCar,\ ParkingMeter)
+numComments=10

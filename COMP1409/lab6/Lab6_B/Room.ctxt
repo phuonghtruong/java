@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Room
+comment0.text=\n\ Write\ a\ description\ of\ class\ Room\ here.\n\n\ @author\ Brian\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Room()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Room\n
+comment2.params=length\ width
+comment2.target=Room(double,\ double)
+comment2.text=\n\ Constructor\ for\ objects\ of\ class\ Room\n\ @para\ length\ to\ set\ lengthInFeet\n\ @para\ width\ to\ set\ widthInFeet\n
+comment3.params=length
+comment3.target=void\ setLengthInFeet(double)
+comment3.text=\n\ Mutator\ method\ setLengthInFeet\n\ @para\ length\ to\ set\ lengthInFeet\n
+comment4.params=width
+comment4.target=void\ setWidthInFeet(double)
+comment4.text=\n\ Mutator\ method\ to\ setWidthInFeet\n\ @para\ width\ to\ set\ widthInFeet\n
+comment5.params=
+comment5.target=double\ getLengthInFeet()
+comment5.text=\n\ Accessor\ getLengthInFeet\n\ @return\ lengthInFeet\n
+comment6.params=
+comment6.target=double\ getWidthInFeet()
+comment6.text=\n\ Accessor\ getWidthInFeet\n\ @return\ widthInFeet\n
+comment7.params=
+comment7.target=double\ calculateArea()
+comment7.text=\n\ Method\ to\ calculateArea\n\ @return\ area\n
+numComments=8
