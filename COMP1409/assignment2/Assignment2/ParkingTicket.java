@@ -11,9 +11,8 @@ public class ParkingTicket
     public static int counter = 1000;
     // instance variables - replace the example below with your own
     private String ticketNumber;
-    //private String officerName;
-    //private String officerBadgeNumber;
-    private PoliceOfficer officer;
+    private String officerName;
+    private String officerBadgeNumber;
     private String carLicensePlateNumber;
     private double fineAmountInCAD;
 
@@ -22,7 +21,8 @@ public class ParkingTicket
      */
     public ParkingTicket(){
         ticketNumber = "unknown";
-        officer = new PoliceOfficer();
+        officerName = "unknown";
+        officerBadgeNumber = "unknown";
         carLicensePlateNumber = "unknown";
         fineAmountInCAD = 0.0;
     }
@@ -37,46 +37,37 @@ public class ParkingTicket
                             String carLicensePlateNumber, double fine)
     {
         // initialise instance variables
-        // setOfficerName(inputOfficerName);
-        // setOfficerBadgeNumber(inputOfficerBadgeNumber);
-        setOfficer(inputOfficerName, inputOfficerBadgeNumber);
+        setOfficerName(inputOfficerName);
+        setOfficerBadgeNumber(inputOfficerBadgeNumber);
         setCarLicensePlateNumber(carLicensePlateNumber);
         setFineAmountInCAD(fine);
         setTicketNumber();
     }
     /**
-     * Mutator method setOfficer
-     * @para officeName to set officerName of PoliceOfficer object
-     * @para officerBadgeNumber to set officerBadgeNumber of PoliceOfficer object
-     */
-    public void setOfficer(String officerName, String officerBadgeNumber){        
-       officer = new PoliceOfficer(officerName, officerBadgeNumber); 
+     * Mutator method setOfficerName
+     * @para officeName to set officerName
+     */    
+    public void setOfficerName(String officerName){
+        if(officerName == null)
+            throw new IllegalArgumentException("officer name must not be null");
+        else if(officerName.length() == 0)
+            throw new IllegalArgumentException("officer name must not be an empty String");
+        else
+            this.officerName = officerName;
     }
     /**
-     * Accessor method to getOfficer
-     * @return officer
-     */
-    public PoliceOfficer getOfficer(){
-        return officer;
-    }
-    // public void setOfficerName(String officerName){
-        // if(officerName == null)
-            // throw new IllegalArgumentException("officer name must not be null");
-        // else if(officerName.length() == 0)
-            // throw new IllegalArgumentException("officer name must not be an empty String");
-        // else
-            // this.officerName = officerName;
-    // }
-    
-    // public void setOfficerBadgeNumber(String officerBadgeNumber){
-        // if(officerBadgeNumber == null)
-            // throw new IllegalArgumentException("badge number must not be null");
-        // else if(officerBadgeNumber.length() == 0)
-            // throw new IllegalArgumentException("badge number must not be empty String");
-        // else
-            // this.officerBadgeNumber = officerBadgeNumber;
+     * Mutator method setOfficerName
+     * @para officeName to set officerBadgeNumber
+     */ 
+    public void setOfficerBadgeNumber(String officerBadgeNumber){
+        if(officerBadgeNumber == null)
+            throw new IllegalArgumentException("badge number must not be null");
+        else if(officerBadgeNumber.length() == 0)
+            throw new IllegalArgumentException("badge number must not be empty String");
+        else
+            this.officerBadgeNumber = officerBadgeNumber;
         
-    // }
+    }
     /**
      * Mutator method to setCarLicensePlateNumber
      * @para carLicensePlateNumber to set car license plate number
@@ -116,14 +107,14 @@ public class ParkingTicket
      * @return officerName
      */
     public String getOfficerName(){
-        return officer.getOfficerName();
+        return officerName;
     }
     /**
      * Accessor method to getOfficerBadgeNumber
      * @return officerBadgeNumber
      */
     public String getOfficerBadgeNumber(){
-        return officer.getOfficerBadgeNumber();
+        return officerBadgeNumber;
     }
     /**
      * Accessor method to getCarLicensePlateNumber
@@ -151,8 +142,8 @@ public class ParkingTicket
      */
     public void displayDetails(){
         System.out.println("Ticket Number: " + getTicketNumber());
-        System.out.println("Officer Name: " + officer.getOfficerName());
-        System.out.println("Officer Badge number: " + officer.getOfficerBadgeNumber());        
+        System.out.println("Officer Name: " + getOfficerName());
+        System.out.println("Officer Badge number: " + getOfficerBadgeNumber());        
         System.out.println("Car License Plate Number: " + getCarLicensePlateNumber());
         System.out.println("Fine amount: " + getFineAmountInCAD());
     }

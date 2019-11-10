@@ -50,12 +50,12 @@ public class Student
             System.out.print("Subject " + (index+1)+" : ");
             score = reader.readDouble();
             if (score < MIN_MARK || score > MAX_MARK){
-                throw new IllegalArgumentException("marks must in the range 0 to 100");
+                System.out.println("marks must in the range 0 to 100");
             }
             else{
                 studentMarks[index] = score;
+                index++;
             }
-            index++;
         }
     }
     
@@ -88,7 +88,7 @@ public class Student
         int index = 0;
         int numberOfPassedExams = 0;
         while(index < studentMarks.length){
-            if(studentMarks[index] > PASS_MARK){
+            if(studentMarks[index] >= PASS_MARK){
                 numberOfPassedExams += 1;
             }
             index++;
