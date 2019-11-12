@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=PoliceDepartment
+comment0.text=\n\ Write\ a\ description\ of\ class\ PoliceDepartment\ here.\n\n\ @author\ Brian\n\ @version\ 01\n
+comment1.params=
+comment1.target=PoliceDepartment()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ PoliceDepartment\n
+comment2.params=address
+comment2.target=PoliceDepartment(java.lang.String)
+comment3.params=address
+comment3.target=void\ setAddress(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getAddress()
+comment5.params=
+comment5.target=PoliceOfficer[]\ getOfficerList()
+comment6.params=officer
+comment6.target=void\ addPoliceOfficer(PoliceOfficer)
+comment7.params=officerName
+comment7.target=void\ displayTicketsByOfficer(java.lang.String)
+comment8.params=
+comment8.target=double\ calculateSumOfAllTicketsOfAllOfficers()
+comment9.params=licensePlateNumber
+comment9.target=int\ totalParkingTicketCountOfACar(java.lang.String)
+numComments=10
