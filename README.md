@@ -1,3 +1,3 @@
 # java
-Author : Brian
+Author : Brian\n
 Purpose : Learn and Practice Java
