@@ -30,7 +30,7 @@ public class PoliceDepartmentTest {
 	private static Grader grader = new Grader(13);
 
 	@Before
-	public static void setUpBeforeClass() throws Exception {
+	public void setUpBeforeClass() throws Exception {
 	 System.out.println("Test Police Department start");
 	}
 
@@ -38,7 +38,7 @@ public class PoliceDepartmentTest {
 	 * @see GeneralSpecificationsTest#tearDownAfterClass()
 	 */
 	@After
-	public static void tearDownAfterClass() throws Exception {
+	public void tearDownAfterClass() throws Exception {
 		System.out.println("PoliceDepartment test class Score: " + grader.getMarks() + " / " + grader.getMax());
 	}
 	

@@ -5,14 +5,17 @@
  * @author Brian
  * @version 01
  */
+
+import java.util.*;
+
 public class PoliceDepartment
 {
     // instance variables - replace the example below with your own
     private String address;
-    private PoliceOfficer[] officerList;
+    private ArrayList<PoliceOfficer> officerList;
 
-    private final static int NUMBER_OF_OFFICER = 50;
-    public static int officerIndex = 0;
+    //private final static int NUMBER_OF_OFFICER = 50;
+    //public static int officerIndex = 0;
     /**
      * Constructor for objects of class PoliceDepartment
      */
@@ -20,12 +23,12 @@ public class PoliceDepartment
     {
         // initialise instance variables
         address = "unknown";
-        officerList = new PoliceOfficer[NUMBER_OF_OFFICER];
+        officerList = new ArrayList<PoliceOfficer>();
     }
 
     public PoliceDepartment(String address){
         setAddress(address);
-        officerList = new PoliceOfficer[NUMBER_OF_OFFICER];
+        officerList = new ArrayList<PoliceOfficer>();
     }
     
     public void setAddress(String address){
@@ -44,14 +47,14 @@ public class PoliceDepartment
         return address;
     }
     
-    public PoliceOfficer[] getOfficerList(){
+    public ArrayList<PoliceOfficer> getOfficerList(){
         return officerList;
     }
     
     public void addPoliceOfficer(PoliceOfficer officer){
         if(officer != null){
-            officerList[officerIndex] = officer;
-            officerIndex++;
+            officerList.add(officer);
+            //officerIndex++;
         }
         else{
             
@@ -63,13 +66,13 @@ public class PoliceDepartment
         boolean isFound = false;
         if(officerName != null && officerName.length() > 0){
             
-            for(int index=0; index <officerList.length; ++index){
-                System.out.println(index);   // Debug
-                System.out.println("Department display: " + officerList[index].getOfficerName());  // Debug
+            for(int index=0; index <officerList.size(); ++index){
+                //System.out.println(index);   // Debug
+                //System.out.println("Department display: " + officerList[index].getOfficerName());  // Debug
                 
-                if(officerList[index].getOfficerName().equals(officerName)){
+                if(officerList.get(index).getOfficerName().equals(officerName)){
                     
-                    officerList[index].displayticketsDetails();
+                    officerList.get(index).displayticketsDetails();
                     isFound = true;
                     break;
                 }
@@ -91,16 +94,16 @@ public class PoliceDepartment
     
     public double calculateSumOfAllTicketsOfAllOfficers(){
         double sumOfAllTickets = 0;
-        for(int index=0; index < officerList.length; ++index){
-            sumOfAllTickets += officerList[index].sumAllfines();
+        for(int index=0; index < officerList.size(); ++index){
+            sumOfAllTickets += officerList.get(index).sumAllfines();
         }
         return sumOfAllTickets;
     }
 
     public int totalParkingTicketCountOfACar(String licensePlateNumber){
         int totalNumberOfParkingTickets = 0;
-        for(int index=0; index < officerList.length; ++index){
-            totalNumberOfParkingTickets += officerList[index].getParkingTicketsCountForACar(licensePlateNumber);
+        for(int index=0; index < officerList.size(); ++index){
+            totalNumberOfParkingTickets += officerList.get(index).getParkingTicketsCountForACar(licensePlateNumber);
         }
         return totalNumberOfParkingTickets;
     }

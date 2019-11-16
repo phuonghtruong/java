@@ -5,6 +5,8 @@
  * @author Brian
  * @version 02
  */
+import java.util.*;
+
 public class PoliceOfficer
 {
     // instance variables - replace the example below with your own
@@ -15,7 +17,7 @@ public class PoliceOfficer
     
     private String officerName;
     private String officerBadgeNumber;
-    private ParkingTicket[] ticketList;
+    private ArrayList<ParkingTicket> ticketList;
 
     /**
      * Constructor for objects of class PoliceOfficer
@@ -23,7 +25,7 @@ public class PoliceOfficer
     public PoliceOfficer(){
         officerName = "unknown";
         officerBadgeNumber = "unknown";
-        ticketList = new ParkingTicket[999];
+        ticketList = new ArrayList<ParkingTicket>();
     }
     /**
      * Constructor for objects of class PoliceOfficer
@@ -35,7 +37,7 @@ public class PoliceOfficer
         // initialise instance variables
         setOfficerName(officerName);
         setOfficerBadgeNumber(officerBadgeNumber);
-        ticketList = new ParkingTicket[999];
+        ticketList = new ArrayList<ParkingTicket>();
     }
     /**
      * Mutator method to set officer name
@@ -139,19 +141,19 @@ public class PoliceOfficer
     
     public void addTicketList(ParkingTicket ticket){
         //int index = (ParkingTicket.counter - 1000) - 1;
-        ticketList[numberOfTicket] = ticket;
+        ticketList.add(ticket);
         System.out.println("DEBUG");
     }
     
-    public ParkingTicket[] getTicketList(){
+    public ArrayList<ParkingTicket> getTicketList(){
         return ticketList;
     }
     
     public double sumAllfines(){
         double sumOfFine = 0;
-        for(int index = 0; index <ticketList.length; ++index){
-            if(ticketList[index] != null){
-                sumOfFine += ticketList[index].getFineAmountInCAD();
+        for(int index = 0; index <ticketList.size(); ++index){
+            if(ticketList.get(index) != null){
+                sumOfFine += ticketList.get(index).getFineAmountInCAD();
             }
             else{
                 break;
@@ -162,9 +164,9 @@ public class PoliceOfficer
     
     public int getParkingTicketsCountForACar(String carLicensePlateNumber){
         int numberOfTickets = 0;
-        for(int index = 0; index <ticketList.length; ++index){
-            if(ticketList[index] != null){
-                if(ticketList[index].getCarLicensePlateNumber().equals(carLicensePlateNumber.toUpperCase())){
+        for(int index = 0; index <ticketList.size(); ++index){
+            if(ticketList.get(index) != null){
+                if(ticketList.get(index).getCarLicensePlateNumber().equals(carLicensePlateNumber.toUpperCase())){
                     numberOfTickets++;
                 }
             }
@@ -175,14 +177,14 @@ public class PoliceOfficer
         return numberOfTickets;
     }
     
-    public ParkingTicket[] getTicketArrayByLicenseNumber(String carLicensePlateNumber){
-        ParkingTicket [] ticketsPerCar = new ParkingTicket[1000];
-        int count = 0;
-        for(int index = 0; index <ticketList.length; ++index){
-            if(ticketList[index] != null){
-                if(ticketList[index].getCarLicensePlateNumber().equals(carLicensePlateNumber.toUpperCase())){
-                    ticketsPerCar[count] = ticketList[index];
-                    count++;
+    public ArrayList<ParkingTicket> getTicketArrayByLicenseNumber(String carLicensePlateNumber){
+        ArrayList<ParkingTicket> ticketsPerCar = new ArrayList<ParkingTicket>();
+        //int count = 0;
+        for(int index = 0; index <ticketList.size(); ++index){
+            if(ticketList.get(index) != null){
+                if(ticketList.get(index).getCarLicensePlateNumber().equals(carLicensePlateNumber.toUpperCase())){
+                    ticketsPerCar.add(ticketList.get(index));
+                    //count++;
                 }
             }
             else{
@@ -193,35 +195,36 @@ public class PoliceOfficer
     }
     
     public double getSumOfFinesByCar(String carLicensePlateNumber){
-        ParkingTicket[] ticketsPerOneCar =  getTicketArrayByLicenseNumber(carLicensePlateNumber);
+        ArrayList<ParkingTicket> ticketsPerOneCar =  getTicketArrayByLicenseNumber(carLicensePlateNumber);
         //ticketsPerOneCar = getAllTicketOfOneCar(carLicensePlateNumber);
         double sumOfFine = 0;
-        for(int index = 0; index < ticketsPerOneCar.length; ++index){
-            sumOfFine += ticketsPerOneCar[index].getFineAmountInCAD();
+        for(int index = 0; index < ticketsPerOneCar.size(); ++index){
+            sumOfFine += ticketsPerOneCar.get(index).getFineAmountInCAD();
         }
         return sumOfFine;
     }
     
     public void displayticketsDetails(){
-        for(int index = 0; index <ticketList.length; ++index){
-            System.out.println("Officer index: " + index);   // Debug
-            System.out.println("Officer display ticket : " + ticketList[index].getOfficerName());  // Debug
+        for(int index = 0; index <ticketList.size(); ++index){
+            //System.out.println("Officer index: " + index);   // Debug
+            //System.out.println("Officer display ticket : " + ticketList.get(index).getOfficerName());  // Debug
             
-            if(ticketList[index].getOfficerName().equals(officerName)){
-                System.out.println("=============**==============");
-                ticketList[index].displayDetails();
+            if(ticketList.get(index).getOfficerName().equals(officerName)){
+                //System.out.println("=============**==============");
+                //System.out.println();
+                ticketList.get(index).displayDetails();
                 System.out.println();
             }
         }
     }
     
     public int deleteTicketsByCarLicense(String carLicensePlateNumber){
-        ParkingTicket[] ticketsPerOneCar = getTicketArrayByLicenseNumber(carLicensePlateNumber);;
+        ArrayList<ParkingTicket> ticketsPerOneCar = getTicketArrayByLicenseNumber(carLicensePlateNumber);;
         //ticketsPerOneCar = getAllTicketOfOneCar(carLicensePlateNumber);
         int count = 0;
-        for(int index = 0; index <ticketsPerOneCar.length; ++index){
-            if(ticketsPerOneCar[index] != null){
-                ticketsPerOneCar[index] = null; 
+        for(int index = 0; index <ticketsPerOneCar.size(); ++index){
+            if(ticketsPerOneCar.get(index) != null){
+                ticketsPerOneCar.add(null); 
                 count++;
             }
         }
