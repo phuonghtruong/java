@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Cattery
+comment1.params=
+comment1.target=Cattery()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Cattery\r\n
+comment2.params=businessName
+comment2.target=Cattery(java.lang.String)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ Cattery\r\n\ @para\ businessName\ to\ set\ the\ name\ of\ business\r\n
+comment3.params=businessName
+comment3.target=void\ setBusinessName(java.lang.String)
+comment3.text=\r\n\ Mutator\ method\ to\ set\ business\ name\r\n\ @para\ businessName\ to\ set\ the\ name\ of\ business\r\n
+comment4.params=newCat
+comment4.target=void\ addCat(Cat)
+comment4.text=\r\n\ Method\ to\ add\ cat\ to\ cat\ list\r\n
+comment5.params=index
+comment5.target=void\ getCat(int)
+comment5.text=\r\n\ Method\ to\ retrieve\ a\ specific\ cat\r\n\ @para\ index\ to\ set\ position\ of\ cat\ in\ the\ catList\r\n
+comment6.params=index
+comment6.target=void\ removeCat(int)
+comment6.text=\r\n\ Method\ to\ remove\ cat\r\n\ @para\ index\ to\ set\ position\ of\ cat\ in\ the\ catList\r\n
+comment7.params=
+comment7.target=void\ displayCatName()
+comment7.text=\r\n\ Method\ to\ display\ cat\ name\r\n
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9
