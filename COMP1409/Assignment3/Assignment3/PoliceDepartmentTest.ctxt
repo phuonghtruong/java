@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=PoliceDepartmentTest
-comment0.text=\r\n\ @author\ Rana\r\n\r\n
+comment0.text=\n\ @author\ Rana\n\n
 comment1.params=
 comment1.target=void\ setUpBeforeClass()
 comment10.params=
@@ -25,7 +25,7 @@ comment19.params=clazz\ name\ unexpectedModifiers\ actualModifiers
 comment19.target=void\ checkForbiddenModifiers(java.lang.Class,\ java.lang.String,\ java.lang.String[],\ int)
 comment2.params=
 comment2.target=void\ tearDownAfterClass()
-comment2.text=\ (non-Javadoc)\r\n\ @see\ GeneralSpecificationsTest\#tearDownAfterClass()\r\n
+comment2.text=\ (non-Javadoc)\n\ @see\ GeneralSpecificationsTest\#tearDownAfterClass()\n
 comment3.params=
 comment3.target=void\ testAddress()
 comment4.params=

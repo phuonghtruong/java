@@ -13,8 +13,6 @@ public class PoliceOfficer
     public final static double ONE_HOUR_FINE_AMOUNT = 20;
     public final static int MINUTES_IN_HOUR = 60;
     
-    public static int numberOfTicket = 0;
-    
     private String officerName;
     private String officerBadgeNumber;
     private ArrayList<ParkingTicket> ticketList;
@@ -125,106 +123,107 @@ public class PoliceOfficer
      */
     public void issueParkingTicket(ParkedCar car, ParkingMeter meter){
         boolean isExpired = isParkingTimeExpired(car,meter);
-        double fine = calculateFine(car,meter);
-        
+        double fine = calculateFine(car,meter);        
         if(isExpired){
             ParkingTicket ticket = new ParkingTicket(officerName, officerBadgeNumber, car.getLicensePlateNumber(), fine);
             ticket.displayDetails();
             addTicketList(ticket);
         }
-        else{
-            
-        }
-        numberOfTicket++;
-            //return null;
     }
-    
+    /**
+     * Method add ticket to ticketList
+     * @para ticket to set ticket object to ticketList
+     */
     public void addTicketList(ParkingTicket ticket){
-        //int index = (ParkingTicket.counter - 1000) - 1;
-        ticketList.add(ticket);
-        System.out.println("DEBUG");
+        if(ticket != null){
+            ticketList.add(ticket);
+        }
     }
-    
+    /**
+     * Method to getTicketList
+     * @return ticketList
+     */
     public ArrayList<ParkingTicket> getTicketList(){
         return ticketList;
     }
-    
+    /**
+     * Method to sum all fines
+     * @return sumOfFine
+     */
     public double sumAllfines(){
         double sumOfFine = 0;
-        for(int index = 0; index <ticketList.size(); ++index){
-            if(ticketList.get(index) != null){
-                sumOfFine += ticketList.get(index).getFineAmountInCAD();
-            }
-            else{
-                break;
-            }
+        for(ParkingTicket ticket : ticketList){
+            sumOfFine += ticket.getFineAmountInCAD();          
         }
         return sumOfFine;
     }
-    
+    /**
+     * Method to get Parking Tickets Count for a car
+     * @para carLicensePlateNumber to set car license plate number
+     * @return numberOfTickets
+     */
     public int getParkingTicketsCountForACar(String carLicensePlateNumber){
         int numberOfTickets = 0;
-        for(int index = 0; index <ticketList.size(); ++index){
-            if(ticketList.get(index) != null){
-                if(ticketList.get(index).getCarLicensePlateNumber().equals(carLicensePlateNumber.toUpperCase())){
-                    numberOfTickets++;
-                }
-            }
-            else{
-                break;
-            }
+        for(ParkingTicket ticket : ticketList){
+            if(ticket.getCarLicensePlateNumber().equalsIgnoreCase(carLicensePlateNumber)){
+                numberOfTickets++;
+            }           
         }
         return numberOfTickets;
     }
-    
-    public ArrayList<ParkingTicket> getTicketArrayByLicenseNumber(String carLicensePlateNumber){
-        ArrayList<ParkingTicket> ticketsPerCar = new ArrayList<ParkingTicket>();
-        //int count = 0;
-        for(int index = 0; index <ticketList.size(); ++index){
-            if(ticketList.get(index) != null){
-                if(ticketList.get(index).getCarLicensePlateNumber().equals(carLicensePlateNumber.toUpperCase())){
-                    ticketsPerCar.add(ticketList.get(index));
-                    //count++;
-                }
-            }
-            else{
-                break;
+    /**
+     * Method getTicketArrayByLicenseNumber
+     * @para carLicensePlateNumber
+     * @return ticketsPerCar
+     */
+    public ParkingTicket[] getTicketArrayByLicenseNumber(String carLicensePlateNumber){
+        ParkingTicket[] ticketsPerCar = new ParkingTicket[ticketList.size()];
+        int count = 0;
+        for(ParkingTicket ticket : ticketList){            
+            if(ticket.getCarLicensePlateNumber().equalsIgnoreCase(carLicensePlateNumber)){
+                ticketsPerCar[count] = ticket;
+                count++;
             }
         }
         return ticketsPerCar;       
     }
-    
+    /**
+     * method getSumOfFinesByCar
+     * @para carLicensePlateNumber
+     * @return sumOfFine
+     */
     public double getSumOfFinesByCar(String carLicensePlateNumber){
-        ArrayList<ParkingTicket> ticketsPerOneCar =  getTicketArrayByLicenseNumber(carLicensePlateNumber);
-        //ticketsPerOneCar = getAllTicketOfOneCar(carLicensePlateNumber);
         double sumOfFine = 0;
-        for(int index = 0; index < ticketsPerOneCar.size(); ++index){
-            sumOfFine += ticketsPerOneCar.get(index).getFineAmountInCAD();
+        for(ParkingTicket ticket : ticketList){
+            if(ticket.getCarLicensePlateNumber().equalsIgnoreCase(carLicensePlateNumber)){
+                sumOfFine += ticket.getFineAmountInCAD();
+            }
         }
         return sumOfFine;
     }
-    
+    /**
+     * Method displayticketsDetails
+     * 
+     */
     public void displayticketsDetails(){
-        for(int index = 0; index <ticketList.size(); ++index){
-            //System.out.println("Officer index: " + index);   // Debug
-            //System.out.println("Officer display ticket : " + ticketList.get(index).getOfficerName());  // Debug
-            
-            if(ticketList.get(index).getOfficerName().equals(officerName)){
-                //System.out.println("=============**==============");
-                //System.out.println();
-                ticketList.get(index).displayDetails();
+        for(ParkingTicket ticket : ticketList){               
+            if(ticket.getOfficerName().equals(officerName)){
+                ticket.displayDetails();
                 System.out.println();
             }
         }
     }
-    
+    /**
+     * Method deleteTicketsByCarLicense
+     * @return count
+     */
     public int deleteTicketsByCarLicense(String carLicensePlateNumber){
-        ArrayList<ParkingTicket> ticketsPerOneCar = getTicketArrayByLicenseNumber(carLicensePlateNumber);;
-        //ticketsPerOneCar = getAllTicketOfOneCar(carLicensePlateNumber);
         int count = 0;
-        for(int index = 0; index <ticketsPerOneCar.size(); ++index){
-            if(ticketsPerOneCar.get(index) != null){
-                ticketsPerOneCar.add(null); 
+        Iterator<ParkingTicket> itr = ticketList.iterator();
+        while(itr.hasNext()){
+            ParkingTicket ticket = itr.next();
+            if(ticket.getCarLicensePlateNumber().equalsIgnoreCase(carLicensePlateNumber)){
+                itr.remove(); 
                 count++;
             }
         }

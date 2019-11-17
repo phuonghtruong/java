@@ -12,8 +12,8 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
-import org.junit.After;
-import org.junit.Before;
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 
@@ -29,16 +29,16 @@ public class PoliceOfficerTest  {
 	/* (non-Javadoc)
 	 * @see GeneralSpecificationsTest#setUpBeforeClass()
 	 */
-	@Before
-	public void setUpBeforeClass() throws Exception {
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
 	 System.out.println("Test Police Officer start");
 	}
 
 	/* (non-Javadoc)
 	 * @see GeneralSpecificationsTest#tearDownAfterClass()
 	 */
-	@After
-	public void tearDownAfterClass() throws Exception {
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
 		System.out.println("PoliceOfficer test class Score: " + grader.getMarks() + " / " + grader.getMax());
 	}
 	
