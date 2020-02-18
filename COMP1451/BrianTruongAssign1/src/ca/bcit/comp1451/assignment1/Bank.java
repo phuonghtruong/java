@@ -6,7 +6,6 @@ package ca.bcit.comp1451.assignment1;
  */
 
 import java.util.HashMap;
-import java.util.Calendar;
 import java.util.Scanner;
 
 public class Bank {
@@ -14,7 +13,10 @@ public class Bank {
 	private HashMap<String, Account> hashmap;
 	private Scanner input;
 	
-	
+	/**
+	 * Constructor Bank
+	 * @param bankName
+	 */
 	public Bank(String bankName) {
 		// TODO Auto-generated constructor stub
 		setBankName(bankName);
@@ -22,7 +24,10 @@ public class Bank {
 		input = new Scanner(System.in);
 
 	}
-
+	/**
+	 * 
+	 * @param bankName
+	 */
 	public void setBankName(String bankName) {
 		if(bankName == null || bankName.isBlank() || bankName.isEmpty()) {
 			throw new IllegalArgumentException("Bank name cannot be null or empty string");
@@ -31,17 +36,27 @@ public class Bank {
 			this.bankName = bankName;
 		}
 	}
-	
+	/**
+	 * 
+	 * @return bankName
+	 */
 	public String getBankName() {
 		return bankName;
 	}
-	
+	/**
+	 * 
+	 * @param toadd
+	 */
 	public void addAccount(Account toadd) {
 		if(toadd != null) {
 			hashmap.put(toadd.getAccountNumber(), toadd);
 		}
 	}
-	
+	/**
+	 * 
+	 * @param accountNumber
+	 * @return object Account
+	 */
 	public Account getAccount(String accountNumber) {
 		accountNumber = formatString(accountNumber);
 		Account account = null;
@@ -54,7 +69,10 @@ public class Bank {
 		}
 		return account;
 	}
-	
+	/**
+	 * 
+	 * @param name to set customer name
+	 */
 	public void showTransactions(String name) {
 		for(String accountNumber : hashmap.keySet()) {
 			if(getAccount(accountNumber).getCustomer().getName().equalsIgnoreCase(name)) {
@@ -62,21 +80,27 @@ public class Bank {
 			}
 		}
 	}
-	
+	/**
+	 * Display details of account numbers
+	 */
 	public void displayAccountNumbers() {
 		for(String accountNumber : hashmap.keySet()) {
 			hashmap.get(accountNumber).displayDetails();
 			System.out.println();
 		}
 	}
-	
+	/**
+	 * Transaction menu
+	 */
 	public void makeTransaction() {
 		
 		while(true) {
 			System.out.println("Enter your account number: ");
-			String accountNumber = input.next();
+			String accountNumber = formatString(input.next());
 			
-			if(hashmap.containsKey(formatString(accountNumber))) {
+			if(hashmap.containsKey(accountNumber)) {
+				Account acc = getAccount(accountNumber);
+				System.out.println("========== Transaction Menu ==========");
 				System.out.println("1. Deposit");
 				System.out.println("2. Withdraw");
 				System.out.println("3. Show Transactions");
@@ -87,55 +111,50 @@ public class Bank {
 					case 1:
 						System.out.println("Enter the deposit amount: ");
 						double amount = input.nextDouble();
-						if(getAccount(accountNumber).deposit(amount)) {
-							while(true) {
-								System.out.println("Enter a day:");
-								int day = input.nextInt();
-								System.out.println("Enter a month:");
-								int month = input.nextInt();
-								System.out.println("Enter a year:");
-								int year = input.nextInt();
-								boolean isValidDate = isValidDateTransaction(accountNumber, day, month, year);
-								if(isValidDate) {
-									Date date = new Date(day,month,year);
-									TransactionRecord transaction = new TransactionRecord(amount, date, accountNumber, TransactionRecord.Type.DEPOSIT);
-									getAccount(accountNumber).addTransaction(transaction);
-									break;
-								}
-								else {
-									System.out.println("Transaction date is not valid ! Please enter again.");
-								}
-							}
+						boolean isValidDeposit = acc.deposit(amount);
+						if(isValidDeposit) {
+
+							System.out.println("Enter a day:");
+							int day = input.nextInt();
+							System.out.println("Enter a month:");
+							int month = input.nextInt();
+							System.out.println("Enter a year:");
+							int year = input.nextInt();
+							Date date = new Date(day,month,year);
+							TransactionRecord transaction = new TransactionRecord(amount, date, accountNumber, TransactionRecord.Type.DEPOSIT);
+							acc.addTransaction(transaction);
 						}
 						break;
 					case 2:
 						System.out.println("Enter the withdraw amount: ");
 						amount = input.nextDouble();
-						if(getAccount(accountNumber).withdraw(amount)) {
-							while(true) {
-								System.out.println("Enter a day:");
-								int day = input.nextInt();
-								System.out.println("Enter a month:");
-								int month = input.nextInt();
-								System.out.println("Enter a year:");
-								int year = input.nextInt();
-								boolean isValidDate = isValidDateTransaction(accountNumber, day, month, year);
-								if(isValidDate) {
-									Date date = new Date(day,month,year);							
-									TransactionRecord transaction = new TransactionRecord(amount, date, accountNumber, TransactionRecord.Type.WITHDRAW);
-									getAccount(accountNumber).addTransaction(transaction);
-									break;
-								}
-								else {
-									System.out.println("Transaction date is not valid ! Please enter again.");
-								}
-							}
+						boolean isValidWithdraw = acc.withdraw(amount);
+						if(isValidWithdraw) {
+							System.out.println("Enter a day:");
+							int day = input.nextInt();
+							System.out.println("Enter a month:");
+							int month = input.nextInt();
+							System.out.println("Enter a year:");
+							int year = input.nextInt();
+							Date date = new Date(day,month,year);							
+							TransactionRecord transaction = new TransactionRecord(amount, date, accountNumber, TransactionRecord.Type.WITHDRAW);
+							acc.addTransaction(transaction);
 						}
 						break;
 					case 3:
 						System.out.println("Enter your name: ");
-						String name = input.nextLine();
-						getAccount(accountNumber).showTransactions();
+						input.nextLine(); //consume new line leftover
+						String name = input.nextLine();					
+						String getCustomerName = acc.getCustomer().getName();
+						boolean isMatched = getCustomerName.equalsIgnoreCase(name);
+						if(isMatched) {
+							System.out.println();
+							System.out.println("***** List of transactions *****");
+							acc.showTransactions();
+						}
+						else {
+							System.out.println("Customer name is not matched with account number!!!");
+						}
 						break;
 					default:
 						System.out.println("Invalid choice");
@@ -143,7 +162,7 @@ public class Bank {
 				System.out.println();
 				System.out.print("Make another transaction ? ");
 				String answer = input.next();
-				if(answer.equalsIgnoreCase("no") || answer.equalsIgnoreCase("n")) {
+				if(!("yes".equalsIgnoreCase(answer) || ("y".equalsIgnoreCase(answer)))) {
 					System.out.println("Thank you ! See you again.");
 					break;
 				}
@@ -152,45 +171,12 @@ public class Bank {
 				System.out.println("Account number is not found");
 				System.out.print("Try again ? ");
 				String answer = input.next();
-				if(answer.equalsIgnoreCase("no") || answer.equalsIgnoreCase("n")) {
+				if(!("yes".equalsIgnoreCase(answer) || ("y".equalsIgnoreCase(answer)))) {
 					System.out.println("Thank you ! See you again.");
 					break;
 				}
 			}
 		}
-	}
-	
-	public boolean isValidDateTransaction(String accountNumber, int day, int month, int year) {
-		boolean isValid = false;
-		
-		int yearCreated = hashmap.get(accountNumber).getAccountDateCreated().getYear();
-		int monthCreated = hashmap.get(accountNumber).getAccountDateCreated().getMonth();
-		int dayCreated = hashmap.get(accountNumber).getAccountDateCreated().getDay();
-		
-		int yearCurrent = Calendar.getInstance().get(Calendar.YEAR);
-		int monthCurrent = Calendar.getInstance().get(Calendar.MONTH);
-		int dayCurrent = Calendar.getInstance().get(Calendar.DAY_OF_MONTH);
-		
-		if(year > yearCreated && year < yearCurrent) {
-			isValid = true;
-		}
-		
-		else if (year == yearCreated && year != yearCurrent) {
-			if((month > monthCreated) || (month == monthCreated && day >= dayCreated)) {
-				isValid = true;
-			}
-		}
-		else if (year == yearCurrent && year != yearCreated) {
-			if((month < monthCurrent) || (month == monthCurrent && day <= dayCurrent)) {
-				isValid = true;
-			}
-		}
-		else if (year == yearCurrent && year == yearCreated) {
-			if((month < monthCurrent) || (month == monthCurrent && day <= dayCurrent)) {
-				isValid = true;
-			}
-		}
-		return isValid;		
 	}
 	
 	public String formatString(String str) {

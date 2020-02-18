@@ -20,10 +20,10 @@ public class Driver {
 		Date birthday3 = new Date(31,7,1996);
 		Date birthday4 = new Date(5,11,1980);
 		
-		Customer c1 = new Customer("Brian McAdams", "Vancouver", birthday1);
-		Customer c2 = new Customer("Aiden May", "Burnaby", birthday2);
-		Customer c3 = new Customer("Lilly James", "Toronto", birthday3);
-		Customer c4 = new Customer("Peter Jackson", "Quebec", birthday4);
+		Customer c1 = new Customer("Brian", "Vancouver", birthday1);
+		Customer c2 = new Customer("Aiden", "Burnaby", birthday2);
+		Customer c3 = new Customer("Lilly", "Toronto", birthday3);
+		Customer c4 = new Customer("Peter", "Quebec", birthday4);
 		
 		Date accCreatedDay1 = new Date(25,12,2019);
 		Date accCreatedDay2 = new Date(3,2,2020);
@@ -43,7 +43,7 @@ public class Driver {
 		
 		System.out.println();
 		bank1.displayAccountNumbers();
-		System.out.println();
+		System.out.println("==============================");
 		bank1.makeTransaction();		
 
 	}
