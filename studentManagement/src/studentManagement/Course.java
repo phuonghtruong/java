@@ -1,91 +1,136 @@
 package studentManagement;
 
 import java.util.*;
-import java.lang.*;
 
 //class Student;
 
 public class Course {
-	private ArrayList<Student> studentList;
+	ArrayList<Student> studentList;
+	private InputReader reader;
+	private String courseName;
+	private String courseID;
+	private double courseCredits;
 	
+
 	public Course() {
 		studentList = new ArrayList<Student>();
+		courseName = "unknown";
+		courseID = "unknown";
+	}
+	
+	public Course(String courseName, String courseID) {
+		studentList = new ArrayList<Student>();
+		setCourseName(courseName);
+		setCourseID(courseID);
 	}
 
-	public void addStudent(Student student) {
-		if(student != null) {
-			studentList.add(student);
+	public void setCourseName(String courseName) {
+		if(courseName == null) {
+			throw new IllegalArgumentException("Course Name can not be null");
+		}
+		else {
+			this.courseName = courseName;
 		}
 	}
 	
-	public void editStudentByID(String studentID) {
+	public void setCourseID(String courseID) {
+		if(courseID == null) {
+			throw new IllegalArgumentException("Course ID can not be null");
+		}
+		else {
+			this.courseID = courseID;
+		}		
+	}
+	
+	public String getCourseName() {return courseName;}
+	
+	public String getCourseID() {return courseID;}
+	
+	public boolean isRegistered(String studentID) {
+		boolean statusRegistration = false;
+		for(Student student:studentList) {
+			if(student.getStudentID().equalsIgnoreCase(studentID)) {
+				statusRegistration = true;
+			}
+		}
+		return statusRegistration;
+	}
+	
+	public void addStudent(Student student) {
+		if(student != null) {
+			if(isRegistered(student.getStudentID())) {
+				System.out.println("Already registered and in the course list!!!");
+			}
+			else {
+				studentList.add(student);
+				System.out.println("Added Successfully!!!");
+			}
+		}
+	}
+	
+	public void updateStudentScoreByID(String studentID) {
 		for(Student student : studentList) {
 			if(student.getStudentID().equalsIgnoreCase(studentID)) {
-				System.out.println("Select information you want to change below");
-				System.out.println("1. Student Name");
-				System.out.println("2. Student Age");
-				System.out.println("3. Student Address");
-				System.out.println("4. Student GPA");
-				
-				Scanner input1 = new Scanner(System.in);
-				int choice = input1.nextInt();
-				switch (choice) {
-					case 1:
-						System.out.println("Enter new student name: ");
-						String newStudentName = input1.nextLine();
-						student.setStudentName(newStudentName);
-						break;
-					case 2:
-						System.out.println("Enter new student age: ");
-						int newStudentAge = input1.nextInt();
-						student.setStudentAge(newStudentAge);
-						break;
-					case 3:
-						System.out.println("Enter new student address: ");
-						String newStudentAddress = input1.nextLine();
-						student.setStudentAddress(newStudentAddress);
-						break;
-					case 4:
-						System.out.println("Enter new student GPA: ");
-						double newStudentGPA = input1.nextDouble();
-						student.setStudentGPA(newStudentGPA);
-						break;
-					default:
-						System.out.println("Invalid choice!!! Please re-select");
-				}
+				System.out.println("The current score: " + student.getStudentScore());
+				System.out.println("Enter new score: ");
+				double newStudentScore = reader.readDouble();
+				student.setStudentScore(newStudentScore);
+						
 			}
 		}
 	}
 	
 	public void deleteStudentByID(String studentID) {
+		boolean isDetected = false;
 		Iterator<Student> iter = studentList.iterator();
         while(iter.hasNext()){
             Student student = iter.next();
-            if(student.getStudentID()== studentID){
+            if(student.getStudentID().equalsIgnoreCase(studentID)){
                 iter.remove();
+                isDetected = true;
             }
         }
+        if(isDetected) System.out.println("Student ID: " + studentID + " is deleted sucessfully !!!");
+        else System.out.println("The requested student ID is not found !!!");
 	}
 	
 	public static class Comparators{
+		// Sort by Name
 		public static Comparator<Student> NAME = new Comparator<Student>(){
 		@Override
 			public int compare(Student s1, Student s2)
 	    	{
-	        	return s1.getStudentName().compareTo(s2.getStudentName());
+	        	return s1.getStudentName().toLowerCase().compareTo(s2.getStudentName().toLowerCase());
 	    	}
 		};
-
-		public static Comparator<Student> GPA = new Comparator<Student>(){
+		// Sort by score
+		public static Comparator<Student> SCORE = new Comparator<Student>(){
 		@Override
 			public int compare(Student s1, Student s2)
 	    	{
-				if (s1.getStudentGPA() < s2.getStudentGPA()) return -1;
-				if (s1.getStudentGPA() > s2.getStudentGPA()) return 1;
+				if (s1.getStudentScore() < s2.getStudentScore()) return -1;
+				if (s1.getStudentScore() > s2.getStudentScore()) return 1;
 				return 0;
 	    	}
 		};
 	}
+	
+	public void sortStudentByName() {
+		Collections.sort(studentList, Comparators.NAME);
+	}
+
+	public void sortStudentByScore() {
+		Collections.sort(studentList, Comparators.SCORE);
+	}
+	
+	public void displayStudentByID(String studentID) {
+		for(Student student:studentList) {
+			if(student.getStudentID().equalsIgnoreCase(studentID)) {
+				student.displayStudentDetail();
+			}
+		}
+	}
+
 	public void displayCourseMembers() {
 		System.out.println("***** List of Students *****");
 		System.out.println("============================");
@@ -93,66 +138,19 @@ public class Course {
 			student.displayStudentDetail();
 		}
 	}
-	
-	
-	
-	
-	public static void main(String[] args) {
-		Student s1 = new Student("001", "Zico", 32, "Santos", 3.7);
-		Student s2 = new Student("002", "Daphne", 27, "Vancouver", 3.9);
-		Student s3 = new Student("003", "Katy", 19, "Victory", 2.6);
-		Student s4 = new Student("004", "Suzane", 45, "Perth", 3.3);
-		Student s5 = new Student("005", "Brian", 30, "Burnaby", 4.2);
-		
-		Course c1 = new Course();
-		c1.addStudent(s1);
-		c1.addStudent(s2);
-		c1.addStudent(s3);
-		c1.addStudent(s4);
-		c1.addStudent(s5);
-		
+
+	public void courseMenu() {
 		System.out.println("/**********************************/");
 		System.out.println("1. Add student.");
-		System.out.println("2. Edit student by id.");
+		System.out.println("2. Update student score by id.");
 		System.out.println("3. Delete student by id.");
-		System.out.println("4. Sort student by gpa.");
-		System.out.println("5. Sort student by name.");
-		System.out.println("6. Show student.");
+		System.out.println("4. Sort student by name.");
+		System.out.println("5. Sort student by score.");
+		System.out.println("6. Show students list.");
 		System.out.println("0. Exit.");
 		System.out.println("/**********************************/");
-		
-		System.out.println();
-		System.out.println("Enter your choice: ");
-		Scanner input1 = new Scanner(System.in);
-		int choice = input1.nextInt();
-		
-		switch(choice) {
-			case 1:
-				break;
-			case 2:
-				System.out.println("Enter student ID: ");
-				String studentID = input1.nextLine();
-				c1.editStudentByID(studentID);
-				break;
-			case 3:
-				System.out.println("Enter student ID: ");
-				studentID = input1.nextLine();
-				c1.deleteStudentByID(studentID);
-				break;
-			case 4:
-				Collections.sort(c1.studentList, Course.Comparators.NAME);
-				break;
-			case 5:
-				Collections.sort(c1.studentList, Course.Comparators.GPA);
-				break;
-			case 6:
-				c1.displayCourseMembers();
-				break;
-			case 0:
-				System.exit(0);
-		}
-		
 	}
+	
 }
 
 
