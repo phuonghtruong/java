@@ -2,4 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="studentManagement.Course.Comparators"/>
+    <fullyQualifiedTypeName name="ca.bcit.comp1451.session2.labB.Dice"/>
+    <fullyQualifiedTypeName name="ca.bcit.comp1451.assignment1.TransactionRecord.Type"/>
 </qualifiedTypeNameHistroy>

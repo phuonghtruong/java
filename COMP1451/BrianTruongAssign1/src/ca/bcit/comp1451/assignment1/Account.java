@@ -91,7 +91,11 @@ public class Account {
 			this.balance = balance;
 		}
 	}
-
+    /**
+     * 
+     * @param amount
+     * @return result
+     */
 	public boolean deposit(double amount) {
 		boolean result = false;
 		if(amount > 0) {
@@ -105,7 +109,11 @@ public class Account {
 		}
 		return result;
 	}
-	
+	/**
+	 * 
+	 * @param amount
+	 * @return result
+	 */
 	public boolean withdraw(double amount) {
 		boolean result = false;
 		if(amount > 0 && amount <= getBalance()) {
@@ -119,13 +127,18 @@ public class Account {
 		}
 		return result;
 	}
-	
+	/**
+	 * 
+	 * @param transaction
+	 */
 	public void addTransaction(TransactionRecord transaction) {
 		if(transaction != null) {
 			listOfTransactions.add(transaction);
 		}
 	}
-	
+	/**
+	 * Method show all transactions
+	 */
 	public void showTransactions() {
 		for(TransactionRecord transaction : listOfTransactions) {
 			transaction.displayDetails();

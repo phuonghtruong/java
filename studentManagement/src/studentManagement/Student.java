@@ -1,38 +1,42 @@
 package studentManagement;
 
-import java.util.Comparator;
+import java.util.*;
 
 public class Student {
+	ArrayList<Course> registeredCourses;
 	private String studentID;
 	private String studentName;
 	private int studentAge;
 	private String studentAddress;
-	private double studentGPA;
+	private double studentScore;
 	
+	public static double totalRegisteredCredits = 0;
+	public static int totalNumRegisteredCourses = 0;
+	public static int id = 10000;
+	public static final int maxNumRegisteredCourses = 5;
+	public static final double maxRegisteredCredits = 15;
+	
+
 	public Student() {
 		studentID = "unknown";
 		studentName = "unknown";
 		studentAge = 0;
 		studentAddress = "unknown";
-		studentGPA = 0.0;
+		studentScore = 0.0;
 	}
 	
-	public Student(String studentID, String studentName, int studentAge,
-			       String studentAddress, double studentGPA) {
-		setStudentID(studentID);
+	public Student(String studentName, int studentAge,
+			       String studentAddress, double studentScore) {
+		setStudentID();
 		setStudentName(studentName);
 		setStudentAge(studentAge);
 		setStudentAddress(studentAddress);
-		setStudentGPA(studentGPA);
+		setStudentScore(studentScore);
 	}
 	
-	public void setStudentID(String studentID) {
-		if(studentID == null) {
-			throw new IllegalArgumentException("student ID can not be null");
-		}
-		else {
-			this.studentID = studentID;
-		}
+	public void setStudentID() {
+		id++;
+		studentID = "BCIT" + id;
 	}
 	
 	public String getStudentID() {return studentID;}
@@ -70,20 +74,30 @@ public class Student {
 	
 	public String getStudentAddress() {return studentAddress;}
 	
-	public void setStudentGPA(double studentGPA) {
-		if(studentGPA < 0) {
-			throw new IllegalArgumentException("student GPA can not be negative");
+	public void setStudentScore(double studentScore) {
+		if(studentScore < 0) {
+			throw new IllegalArgumentException("student score can not be negative");
 		}
 		else {
-			this.studentGPA = studentGPA;
+			this.studentScore = studentScore;
 		}
 	}
 	
-	public double getStudentGPA() {return studentGPA;}
+	public double getStudentScore() {return studentScore;}
 	
+	public void registerCourse(String courseID) {
+		if(totalRegisteredCredits > maxRegisteredCredits || 
+				totalNumRegisteredCourses + 1 > maxNumRegisteredCourses) {
+			
+		}
+	}
+
+	public void withdrawCourse(String courseID) {
+		
+	}
 	public void displayStudentDetail() {
 		System.out.println(getStudentID() + "\t" + getStudentName() + "\t" +
-						   getStudentAddress() + "\t" + getStudentGPA());
+						   getStudentAddress() + "\t\t" + getStudentScore());
 	}
 }
 
