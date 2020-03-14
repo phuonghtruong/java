@@ -19,6 +19,8 @@ public class InsuranceCompany {
 	private static final double INSURANCE_RATE_FOR_LABOUR = 0.05;
 	private static final double INSURANCE_RATE_FOR_LABOUR_MATERIAL = 0.07;
 	private static final double INSURANCE_RATE_FOR_LABOUR_MATERIAL_EQUIP = 0.1;
+	
+	private static final int MIN_LENGTH_OF_INVOICE_NUMBER = 7;
 	/**
 	 * 
 	 */
@@ -47,14 +49,18 @@ public class InsuranceCompany {
 		}
 	}
 	
-	public void displayProjectInvoice(String invoiceNumber) {
+	public void displayProjectInvoice(String invoiceNumber) throws InvalidInvoiceNumberException{
 		//try catch here
 		boolean isFound = false;
-		for(ProjectInvoice invoice : listOfInvoices) {
-			if(invoice.getInvoiceNumber().equalsIgnoreCase(invoiceNumber)){
-				isFound = true;
-				System.out.println(invoice);
+		if(invoiceNumber != null && invoiceNumber.length() >= MIN_LENGTH_OF_INVOICE_NUMBER)
+			for(ProjectInvoice invoice : listOfInvoices) {
+				if(invoice.getInvoiceNumber().equalsIgnoreCase(invoiceNumber)){
+					isFound = true;
+					System.out.println(invoice);
+				}
 			}
+		else {
+			throw new InvalidInvoiceNumberException("The invoice number " + invoiceNumber + " must at least 7 characters");	
 		}
 		if(!isFound) {
 			System.out.println("Invoice was not found!!!");
