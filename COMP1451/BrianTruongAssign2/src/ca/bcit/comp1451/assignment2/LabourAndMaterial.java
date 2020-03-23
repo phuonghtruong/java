@@ -22,7 +22,16 @@ public class LabourAndMaterial extends Labour implements Transferable {
 	private static final double FEE_RATE_FOR_OVER_STANDARD_VOL = 2;
 	private static final double FEE_RATE_FOR_UNDER_STANDARD_VOL = 1.5;
 	/**
-	 * 
+	 * Constructor
+	 * @param projectName
+	 * @param numberOfWorkingHours
+	 * @param hourlyRate
+	 * @param travelDistanceInKm
+	 * @param hourlyRateCriteria
+	 * @param type
+	 * @param purchasePrice
+	 * @param volumeInCubicFoot
+	 * @param conveyingDistanceInKm
 	 */
 	public LabourAndMaterial(String projectName, int numberOfWorkingHours,
 			double hourlyRate ,double travelDistanceInKm, 
@@ -37,6 +46,10 @@ public class LabourAndMaterial extends Labour implements Transferable {
 		setConveyingDistanceInKm(conveyingDistanceInKm);
 	}
 
+	/**
+	 * 
+	 * @param purchasePrice
+	 */
 	public void setPurchasePrice(double purchasePrice) {
 		if(purchasePrice <= 0) {
 			throw new IllegalArgumentException("Purchase price cannot be negative or zero");
@@ -45,9 +58,15 @@ public class LabourAndMaterial extends Labour implements Transferable {
 			this.purchasePrice = purchasePrice;
 		}
 	}
-	
+	/**
+	 * 
+	 * @return purchasePrice
+	 */
 	public double getPurchasePrice() {return purchasePrice;}
-	
+	/**
+	 * 
+	 * @param volumeInCubicFoot
+	 */
 	public void setVolumeInCubicFoot(double volumeInCubicFoot) {
 		if(volumeInCubicFoot <= 0) {
 			throw new IllegalArgumentException("Volume cannot be negative or zero");
@@ -56,9 +75,15 @@ public class LabourAndMaterial extends Labour implements Transferable {
 			this.volumeInCubicFoot = volumeInCubicFoot;
 		}
 	}
-	
+	/**
+	 * 
+	 * @return volumeInCubicFoot
+	 */
 	public double getVolumeInCubicFoot() {return volumeInCubicFoot;}
-	
+	/**
+	 * 
+	 * @param conveyingDistanceInKm
+	 */
 	public void setConveyingDistanceInKm(double conveyingDistanceInKm) {
 		if(conveyingDistanceInKm <= 0) {
 			throw new IllegalArgumentException("Distance cannot be negative or zero");
@@ -67,9 +92,15 @@ public class LabourAndMaterial extends Labour implements Transferable {
 			this.conveyingDistanceInKm = conveyingDistanceInKm;
 		}
 	}
-	
+	/**
+	 * 
+	 * @return conveyingDistanceInKm
+	 */
 	public double getConveyingDistanceInKm() {return conveyingDistanceInKm;}
-	
+	/**
+	 * 
+	 * @return total material cost
+	 */
 	public double calculateTotalMaterialCost() {
 		double cost = 0;
 		double purchaseCost = getPurchasePrice();
@@ -106,15 +137,11 @@ public class LabourAndMaterial extends Labour implements Transferable {
 	
 	@Override
 	public String toString() {
-		if(this.getClass() == LabourAndMaterial.class) {
-			return super.toString() + "\n" +
+		return super.toString() + "\n"+
 	           	"Material Cost: " + calculateTotalMaterialCost() + "\n" +
-	           	"Conveying Cost: " + calculateConveyingFees() + "\n"+
-				"Total Cost: " + calculateTotalCost();
-		}
-		else {
-			return super.toString();
-		}
+	           	"Conveying Cost: " + calculateConveyingFees() +
+				((this.getClass() == LabourAndMaterial.class ) ? "\nTotal cost: " + calculateTotalCost() : "");
+
 	}
 
 }

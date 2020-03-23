@@ -13,9 +13,9 @@ public class InvalidInvoiceNumberException extends Exception{
 	/**
 	 * 
 	 */
-	public InvalidInvoiceNumberException(String m) {
+	public InvalidInvoiceNumberException(String message) {
 		// TODO Auto-generated constructor stub
-		super(m);
+		super(message);
 	}
 	
 

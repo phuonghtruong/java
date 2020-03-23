@@ -32,10 +32,7 @@ public class Labour extends ProjectInvoice{
 	private static final double HOLIDAY_RATE = 3;
 	
 	public static final double TAX_PERCENTAGE = 0.05;
-	
-	private static final double EXPERIENCED_RATE = 1.5;
-	private static final double INEXPERIENCED_RATE = 1;
-	
+
 	/**
 	 * 
 	 */

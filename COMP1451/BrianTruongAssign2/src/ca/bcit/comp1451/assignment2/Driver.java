@@ -62,6 +62,8 @@ public class Driver {
 				comp1.displayProjectInvoice(invoiceNumber);
 			}catch(InvalidInvoiceNumberException e) {
 				System.out.println(e.getMessage());
+			}finally {
+				// This code is always executed
 			}
 			
 			System.out.println("Do you continue with other invoice ? (y|n) : ");
