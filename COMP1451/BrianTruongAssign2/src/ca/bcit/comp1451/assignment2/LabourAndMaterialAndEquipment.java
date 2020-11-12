@@ -19,7 +19,18 @@ public class LabourAndMaterialAndEquipment extends LabourAndMaterial {
 	private static double HOURLY_RENTAL_RATE = 0.05;
 	private static double EQUIP_VALUE_RATE = 0.02;
 	/**
-	 * 
+	 * Constructor
+	 * @param projectName
+	 * @param numberOfWorkingHours
+	 * @param hourlyRate
+	 * @param travelDistanceInKm
+	 * @param hourlyRateCriteria
+	 * @param type
+	 * @param purchasePrice
+	 * @param volumeInCubicFoot
+	 * @param conveyingDistanceInKm
+	 * @param equipmentValueInCAD
+	 * @param numberOfHoursRented
 	 */
 	public LabourAndMaterialAndEquipment(String projectName, int numberOfWorkingHours,
 			double hourlyRate ,double travelDistanceInKm, 
@@ -34,7 +45,10 @@ public class LabourAndMaterialAndEquipment extends LabourAndMaterial {
 		setEquipmentValueInCAD(equipmentValueInCAD);
 		setNumberOfHoursRented(numberOfHoursRented);
 	}
-	
+	/**
+	 * 
+	 * @param equipmentValueInCAD
+	 */
 	public void setEquipmentValueInCAD(double equipmentValueInCAD) {
 		if(equipmentValueInCAD <=0) {
 			throw new IllegalArgumentException("value cannot be negative or zero");
@@ -43,7 +57,10 @@ public class LabourAndMaterialAndEquipment extends LabourAndMaterial {
 			this.equipmentValueInCAD = equipmentValueInCAD;
 		}
 	}
-	
+	/**
+	 * 
+	 * @return equipment value in CAD
+	 */
 	public double getEquipmentValueInCAD() {return equipmentValueInCAD;}
 	
 	public void setNumberOfHoursRented(int numberOfHoursRented) {
@@ -54,16 +71,25 @@ public class LabourAndMaterialAndEquipment extends LabourAndMaterial {
 			this.numberOfHoursRented = numberOfHoursRented;
 		}
 	}
-	
+	/**
+	 * 
+	 * @return numberOfHoursRented
+	 */
 	public int getNumberOfHoursRented() {return numberOfHoursRented;}
-	
+	/**
+	 * 
+	 * @return rentalFees
+	 */
 	public double calculateRentalFees() {
 		double rentalFees = 0; 
 		rentalFees = HOURLY_RENTAL_RATE * getEquipmentValueInCAD() *
 				              getNumberOfHoursRented();		
 		return rentalFees;
 	}
-	
+	/**
+	 * 
+	 * @return trainingFees
+	 */
 	public double calculateTrainingFees() {
 		TypeOfLabour type = getTypeOfLabour();
 		double trainingFees = 0;
@@ -89,16 +115,13 @@ public class LabourAndMaterialAndEquipment extends LabourAndMaterial {
 	
 	@Override
 	public String toString() {
-		String outputString;
 		TypeOfLabour type = getTypeOfLabour();
-		outputString = super.toString() + "\n" +
-						"Number of hours rented: " + getNumberOfHoursRented() + "\n" +
-				        "Equipment Rental Fees: " + calculateRentalFees();
-		if(type == TypeOfLabour.INEXPERIENCED) {
-			outputString = outputString + "\n" +
-		                "Training Fees: " + calculateTrainingFees() ;
-		}
-		return outputString;
+		return super.toString() + "\n"+
+				"Number of hours rented: " + getNumberOfHoursRented() + "\n" +
+				"Equipment Rental Fees: " + calculateRentalFees() + 
+				((type == TypeOfLabour.INEXPERIENCED) ? "\nTraining Fees: " + calculateTrainingFees() : "")+
+				"\nTotal cost: " + calculateTotalCost();
+
 	}
 
 }

@@ -32,10 +32,7 @@ public class Labour extends ProjectInvoice{
 	private static final double HOLIDAY_RATE = 3;
 	
 	public static final double TAX_PERCENTAGE = 0.05;
-	
-	private static final double EXPERIENCED_RATE = 1.5;
-	private static final double INEXPERIENCED_RATE = 1;
-	
+
 	/**
 	 * 
 	 */
@@ -48,7 +45,10 @@ public class Labour extends ProjectInvoice{
 		setHourlyRateCriteria(hourlyRateCriteria);
 		setTypeOfLabour(type);
 	}
-	
+	/**
+	 * 
+	 * @param travelDistanceInKm
+	 */
 	public void setTravelDistanceInKm(double travelDistanceInKm) {
 		if(travelDistanceInKm <= 0) {
 			throw new IllegalArgumentException("Distance cannot be negative or zero");
@@ -57,9 +57,16 @@ public class Labour extends ProjectInvoice{
 			this.travelDistanceInKm = travelDistanceInKm;
 		}
 	}
-	
+	/**
+	 * 
+	 * @return travelDistanceInKm
+	 */
 	public double getTravelDistanceInKm() {return travelDistanceInKm;}
 	
+	/**
+	 * 
+	 * @param hourlyRateCriteria
+	 */
 	public void setHourlyRateCriteria(Criteria hourlyRateCriteria) {
 		if(hourlyRateCriteria != null && 
 				(hourlyRateCriteria == Criteria.REGULAR ||
@@ -71,9 +78,15 @@ public class Labour extends ProjectInvoice{
 			this.hourlyRateCriteria = Criteria.REGULAR;
 		}
 	}
-	
+	/**
+	 * 
+	 * @return hourlyRateCriteria
+	 */
 	public Criteria getHourlyRateCriteria() {return hourlyRateCriteria;}
-	
+	/**
+	 * 
+	 * @param type for type of labour
+	 */
 	public void setTypeOfLabour(TypeOfLabour type) {
 		if(type != null && (type == TypeOfLabour.EXPERIENCED ||
 				            type == TypeOfLabour.INEXPERIENCED)) {
@@ -83,43 +96,47 @@ public class Labour extends ProjectInvoice{
 			this.type = TypeOfLabour.INEXPERIENCED;
 		}
 	}
-	
+	/**
+	 * 
+	 * @return type of labour
+	 */
 	public TypeOfLabour getTypeOfLabour() {return type;}
-
+	/**
+	 * 
+	 * @return travel distance cost
+	 */
 	public double calculateTravalledDistanceCost() {
 		double cost = 0;
 		cost = COST_INDEX * getTravelDistanceInKm();
 		return cost;
 	}
-	
-	public double calculateLaboutCost() {
-		TypeOfLabour type = getTypeOfLabour();
-		double hourlyRate = getHourlyRate();
-		if(type == TypeOfLabour.EXPERIENCED) {
-			setHourlyRate(EXPERIENCED_RATE * hourlyRate);
-		}
-		else if(type == TypeOfLabour.INEXPERIENCED) {
-			setHourlyRate(INEXPERIENCED_RATE * hourlyRate);
-		}
-		return getHourlyRate() * getNumberOfWorkingHours();
-	}
-	
-	public double calculateTotalCost() {
-		double totalCost = 0;
+	/**
+	 * 
+	 * @return labour cost
+	 */
+	public double calculateLabourCost() {
+		double labourCost = 0;
 		Criteria criteria = getHourlyRateCriteria();
 		double hourlyRate = getHourlyRate();
 		int numberOfWorkingHours = getNumberOfWorkingHours();
 		if(criteria == Criteria.REGULAR) {
-			totalCost = REGULAR_RATE * hourlyRate * numberOfWorkingHours;
+			labourCost = REGULAR_RATE * hourlyRate * numberOfWorkingHours;
 		}
 		else if(criteria == Criteria.OVERTIME) {
-			totalCost = OVERTIME_RATE * hourlyRate * numberOfWorkingHours;
+			labourCost = OVERTIME_RATE * hourlyRate * numberOfWorkingHours;
 		}
 		else if(criteria == Criteria.HOLIDAY) {
-			totalCost = HOLIDAY_RATE * hourlyRate * numberOfWorkingHours;
+			labourCost = HOLIDAY_RATE * hourlyRate * numberOfWorkingHours;
 		}
-		totalCost += this.calculateTravalledDistanceCost();
-		totalCost = totalCost + totalCost*TAX_PERCENTAGE;
+		return labourCost;
+	}
+	/**
+	 * return total cost
+	 */
+	public double calculateTotalCost() {
+		double totalCost = 0;		
+		totalCost = this.calculateLabourCost() + this.calculateTravalledDistanceCost();
+		totalCost += totalCost*TAX_PERCENTAGE;
 		return totalCost;
 	}
 	
@@ -128,8 +145,8 @@ public class Labour extends ProjectInvoice{
 		return super.toString() + "\n" +
 				"Hourly rate criteria: " + getHourlyRateCriteria().name() + "\n"+
 				"Type of labour: " + getTypeOfLabour().name() + "\n"+
-				"Cost of labour: " + calculateLaboutCost() + "\n" +
-				"Travel distance cost: " + calculateTravalledDistanceCost() + "\n"+
-				"Total cost: " + calculateTotalCost();
+				"Cost of labour: " + calculateLabourCost() + "\n" +
+				"Travel distance cost: " + calculateTravalledDistanceCost() +
+				((this.getClass() == Labour.class ) ? "\nTotal cost: " + calculateTotalCost() : "");
 	}
 }

@@ -8,13 +8,15 @@ package ca.bcit.comp1451.assignment2;
  * Mar. 1, 2020
  * InvalidInvoiceNumberException.java
  */
-public class InvalidInvoiceNumberException {
+public class InvalidInvoiceNumberException extends Exception{
 
 	/**
 	 * 
 	 */
-	public InvalidInvoiceNumberException() {
+	public InvalidInvoiceNumberException(String message) {
 		// TODO Auto-generated constructor stub
+		super(message);
 	}
+	
 
 }

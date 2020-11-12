@@ -58,9 +58,13 @@ public class Driver {
 			
 			System.out.println("Enter an invoice number: ");
 			String invoiceNumber = input.next();
-		
-			//try catch
-			comp1.displayProjectInvoice(invoiceNumber);
+			try {
+				comp1.displayProjectInvoice(invoiceNumber);
+			}catch(InvalidInvoiceNumberException e) {
+				System.out.println(e.getMessage());
+			}finally {
+				// This code is always executed
+			}
 			
 			System.out.println("Do you continue with other invoice ? (y|n) : ");
 			String ans = input.next();
