@@ -1,0 +1,884 @@
+2021-02-23 18:21:59.493 [main] INFO  a01203138.Lab7 - 2021-02-24T02:21:59.486108600Z
+2021-02-23 18:21:59.533 [main] INFO  a01203138.io.CustomerReport - Customer Report
+2021-02-23 18:21:59.533 [main] INFO  a01203138.io.CustomerReport - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-02-23 18:21:59.537 [main] INFO  a01203138.io.CustomerReport - #. ID         First name      Last name  Street                    City       Postal Code     Phone           Email                     Joined Date    
+2021-02-23 18:21:59.537 [main] INFO  a01203138.io.CustomerReport - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-02-23 18:21:59.551 [main] INFO  a01203138.io.CustomerReport - 1  000001     Fred            Fish       5707 Sidley St            Burnaby    V5J 5E6         (604) 433-5004  fredfish@imperial.net     Mar 22 2008    
+2021-02-23 18:21:59.554 [main] INFO  a01203138.io.CustomerReport - 5  000005     Mark            Chan       3766 E 1st Ave            Burnaby    V5C 3V9         (604) 293-1022  mchan@hc.com              Apr 01 2010    
+2021-02-23 18:21:59.556 [main] INFO  a01203138.io.CustomerReport - 3  000003     Conrad          Washington 13479 King George Blvd    Surrey     V3T 2T8         (604) 588-4988  cwash@daytona.net         Jul 12 2011    
+2021-02-23 18:21:59.558 [main] INFO  a01203138.io.CustomerReport - 2  000002     Laurie          Nash       2816 Commercial Dr        Vancouver  V5N 4C6         (604) 876-0182  laurieeenash@modern.com   Aug 28 2014    
+2021-02-23 18:21:59.558 [main] INFO  a01203138.io.CustomerReport - 4  000004     Jeanette        Price      21000 Westminster Hwy     Richmond   V6V 2S9         (604) 276-2552  priceizrite@pacific.com   Oct 03 2015    
+2021-02-23 18:21:59.559 [main] INFO  a01203138.io.CustomerReport - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-02-23 18:21:59.559 [main] INFO  a01203138.Lab7 - 2021-02-24T02:21:59.559827900Z
+2021-02-23 18:21:59.559 [main] INFO  a01203138.Lab7 - Duration: 73 ms
+2021-02-23 23:02:18.501 [main] INFO  a01203138.Lab7 - 2021-02-24T07:02:18.493057Z
+2021-02-23 23:02:18.519 [main] INFO  a01203138.io.CustomerReport - Customer Report
+2021-02-23 23:02:18.519 [main] INFO  a01203138.io.CustomerReport - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-02-23 23:02:18.521 [main] INFO  a01203138.io.CustomerReport - #. ID         First name      Last name  Street                    City       Postal Code     Phone           Email                     Joined Date    
+2021-02-23 23:02:18.522 [main] INFO  a01203138.io.CustomerReport - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-02-23 23:02:18.534 [main] INFO  a01203138.io.CustomerReport - 1  000001     Fred            Fish       5707 Sidley St            Burnaby    V5J 5E6         (604) 433-5004  fredfish@imperial.net     Mar 22 2008    
+2021-02-23 23:02:18.536 [main] INFO  a01203138.io.CustomerReport - 5  000005     Mark            Chan       3766 E 1st Ave            Burnaby    V5C 3V9         (604) 293-1022  mchan@hc.com              Apr 01 2010    
+2021-02-23 23:02:18.538 [main] INFO  a01203138.io.CustomerReport - 3  000003     Conrad          Washington 13479 King George Blvd    Surrey     V3T 2T8         (604) 588-4988  cwash@daytona.net         Jul 12 2011    
+2021-02-23 23:02:18.538 [main] INFO  a01203138.io.CustomerReport - 2  000002     Laurie          Nash       2816 Commercial Dr        Vancouver  V5N 4C6         (604) 876-0182  laurieeenash@modern.com   Aug 28 2014    
+2021-02-23 23:02:18.541 [main] INFO  a01203138.io.CustomerReport - 4  000004     Jeanette        Price      21000 Westminster Hwy     Richmond   V6V 2S9         (604) 276-2552  priceizrite@pacific.com   Oct 03 2015    
+2021-02-23 23:02:18.541 [main] INFO  a01203138.io.CustomerReport - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-02-23 23:02:18.542 [main] INFO  a01203138.Lab7 - 2021-02-24T07:02:18.542634700Z
+2021-02-23 23:02:18.542 [main] INFO  a01203138.Lab7 - Duration: 49 ms
+2021-02-23 23:02:26.097 [main] INFO  a01203138.Lab7 - 2021-02-24T07:02:26.087766200Z
+2021-02-23 23:02:26.121 [main] INFO  a01203138.io.CustomerReport - Customer Report
+2021-02-23 23:02:26.123 [main] INFO  a01203138.io.CustomerReport - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-02-23 23:02:26.126 [main] INFO  a01203138.io.CustomerReport - #. ID         First name      Last name  Street                    City       Postal Code     Phone           Email                     Joined Date    
+2021-02-23 23:02:26.126 [main] INFO  a01203138.io.CustomerReport - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-02-23 23:02:26.143 [main] INFO  a01203138.io.CustomerReport - 1  000001     Fred            Fish       5707 Sidley St            Burnaby    V5J 5E6         (604) 433-5004  fredfish@imperial.net     Mar 22 2008    
+2021-02-23 23:02:26.147 [main] INFO  a01203138.io.CustomerReport - 5  000005     Mark            Chan       3766 E 1st Ave            Burnaby    V5C 3V9         (604) 293-1022  mchan@hc.com              Apr 01 2010    
+2021-02-23 23:02:26.149 [main] INFO  a01203138.io.CustomerReport - 3  000003     Conrad          Washington 13479 King George Blvd    Surrey     V3T 2T8         (604) 588-4988  cwash@daytona.net         Jul 12 2011    
+2021-02-23 23:02:26.151 [main] INFO  a01203138.io.CustomerReport - 2  000002     Laurie          Nash       2816 Commercial Dr        Vancouver  V5N 4C6         (604) 876-0182  laurieeenash@modern.com   Aug 28 2014    
+2021-02-23 23:02:26.153 [main] INFO  a01203138.io.CustomerReport - 4  000004     Jeanette        Price      21000 Westminster Hwy     Richmond   V6V 2S9         (604) 276-2552  priceizrite@pacific.com   Oct 03 2015    
+2021-02-23 23:02:26.153 [main] INFO  a01203138.io.CustomerReport - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-02-23 23:02:26.154 [main] INFO  a01203138.Lab7 - 2021-02-24T07:02:26.154929600Z
+2021-02-23 23:02:26.154 [main] INFO  a01203138.Lab7 - Duration: 67 ms
+2021-02-24 21:39:57.986 [main] INFO  a01203138.Lab7 - 2021-02-25T05:39:57.978928400Z
+2021-02-24 21:41:03.456 [main] INFO  a01203138.Lab7 - 2021-02-25T05:41:03.442957500Z
+2021-02-24 21:41:15.812 [main] INFO  a01203138.Lab7 - 2021-02-25T05:41:15.805361600Z
+2021-02-24 21:44:47.712 [main] INFO  a01203138.Lab7 - 2021-02-25T05:44:47.705213100Z
+2021-02-24 22:04:18.172 [main] INFO  a01203138.Lab7 - 2021-02-25T06:04:18.164892300Z
+2021-02-24 22:04:19.502 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 22:04:19.506 [main] ERROR a01203138.Lab7 - null
+2021-02-24 22:04:19.507 [main] INFO  a01203138.Lab7 - 2021-02-25T06:04:19.507578100Z
+2021-02-24 22:04:19.508 [main] INFO  a01203138.Lab7 - Duration: 1342 ms
+2021-02-24 22:16:26.099 [main] INFO  a01203138.Lab7 - 2021-02-25T06:16:26.086646600Z
+2021-02-24 22:16:27.408 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 22:16:27.414 [main] ERROR a01203138.Lab7 - null
+2021-02-24 22:16:27.416 [main] INFO  a01203138.Lab7 - 2021-02-25T06:16:27.416401800Z
+2021-02-24 22:16:27.416 [main] INFO  a01203138.Lab7 - Duration: 1329 ms
+2021-02-24 22:16:50.526 [main] INFO  a01203138.Lab7 - 2021-02-25T06:16:50.517369700Z
+2021-02-24 22:16:51.960 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 22:17:17.747 [main] ERROR a01203138.Lab7 - null
+2021-02-24 22:17:37.332 [main] INFO  a01203138.Lab7 - 2021-02-25T06:17:37.332688900Z
+2021-02-24 22:17:37.333 [main] INFO  a01203138.Lab7 - Duration: 46815 ms
+2021-02-24 22:18:02.020 [main] INFO  a01203138.Lab7 - 2021-02-25T06:18:02.011583600Z
+2021-02-24 22:18:03.508 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 22:18:40.501 [main] INFO  a01203138.Lab7 - 2021-02-25T06:18:40.492555800Z
+2021-02-24 22:18:41.613 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 22:18:41.616 [main] ERROR a01203138.Lab7 - null
+2021-02-24 22:18:41.621 [main] INFO  a01203138.Lab7 - 2021-02-25T06:18:41.621015900Z
+2021-02-24 22:18:41.621 [main] INFO  a01203138.Lab7 - Duration: 1128 ms
+2021-02-24 22:19:09.201 [main] INFO  a01203138.Lab7 - 2021-02-25T06:19:09.192885300Z
+2021-02-24 22:19:10.579 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 22:20:23.580 [main] INFO  a01203138.Lab7 - 2021-02-25T06:20:23.572815100Z
+2021-02-24 22:20:24.879 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 22:20:24.883 [main] ERROR a01203138.Lab7 - null
+2021-02-24 22:20:24.884 [main] INFO  a01203138.Lab7 - 2021-02-25T06:20:24.884828200Z
+2021-02-24 22:20:24.885 [main] INFO  a01203138.Lab7 - Duration: 1312 ms
+2021-02-24 22:21:25.232 [main] INFO  a01203138.Lab7 - 2021-02-25T06:21:25.224501700Z
+2021-02-24 22:21:26.594 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 22:21:43.687 [main] ERROR a01203138.Lab7 - null
+2021-02-24 22:38:00.714 [main] INFO  a01203138.Lab7 - 2021-02-25T06:38:00.705958200Z
+2021-02-24 22:38:01.909 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 22:38:01.915 [main] ERROR a01203138.Lab7 - null
+2021-02-24 22:38:01.917 [main] INFO  a01203138.Lab7 - 2021-02-25T06:38:01.917564900Z
+2021-02-24 22:38:01.918 [main] INFO  a01203138.Lab7 - Duration: 1211 ms
+2021-02-24 22:38:35.724 [main] INFO  a01203138.Lab7 - 2021-02-25T06:38:35.717602500Z
+2021-02-24 22:38:36.997 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 22:38:37.002 [main] ERROR a01203138.Lab7 - null
+2021-02-24 22:38:37.002 [main] INFO  a01203138.Lab7 - 2021-02-25T06:38:37.002918200Z
+2021-02-24 22:38:37.004 [main] INFO  a01203138.Lab7 - Duration: 1285 ms
+2021-02-24 22:46:04.697 [main] INFO  a01203138.Lab7 - 2021-02-25T06:46:04.691325400Z
+2021-02-24 22:46:05.872 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 22:46:05.879 [main] ERROR a01203138.Lab7 - null
+2021-02-24 22:46:05.881 [main] INFO  a01203138.Lab7 - 2021-02-25T06:46:05.881838800Z
+2021-02-24 22:46:05.882 [main] INFO  a01203138.Lab7 - Duration: 1190 ms
+2021-02-24 22:46:21.028 [main] INFO  a01203138.Lab7 - 2021-02-25T06:46:21.019294Z
+2021-02-24 22:46:22.399 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 22:46:44.876 [main] INFO  a01203138.Lab7 - 2021-02-25T06:46:44.866593Z
+2021-02-24 22:46:46.151 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:00:40.232 [main] INFO  a01203138.Lab7 - 2021-02-25T07:00:40.228561600Z
+2021-02-24 23:00:40.815 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:00:40.950 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(1), street VARCHAR(10), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:00:40.972 [main] DEBUG a01203138.db.Dao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(1), street VARCHAR(10), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:00:40.997 [main] INFO  a01203138.Lab7 - 2021-02-25T07:00:40.997938700Z
+2021-02-24 23:00:40.997 [main] INFO  a01203138.Lab7 - Duration: 769 ms
+2021-02-24 23:02:27.355 [main] INFO  a01203138.Lab7 - 2021-02-25T07:02:27.350497Z
+2021-02-24 23:02:27.904 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:02:28.043 [main] DEBUG a01203138.data.CustomerDao - create table null(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(1), street VARCHAR(10), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:02:28.067 [main] INFO  a01203138.Lab7 - 2021-02-25T07:02:28.067551500Z
+2021-02-24 23:02:28.067 [main] INFO  a01203138.Lab7 - Duration: 717 ms
+2021-02-24 23:04:27.770 [main] INFO  a01203138.Lab7 - 2021-02-25T07:04:27.765715300Z
+2021-02-24 23:04:28.337 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:04:28.486 [main] DEBUG a01203138.data.CustomerDao - create table null(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(1), street VARCHAR(10), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:04:28.510 [main] INFO  a01203138.Lab7 - 2021-02-25T07:04:28.510968200Z
+2021-02-24 23:04:28.510 [main] INFO  a01203138.Lab7 - Duration: 745 ms
+2021-02-24 23:05:31.182 [main] INFO  a01203138.Lab7 - 2021-02-25T07:05:31.178170700Z
+2021-02-24 23:05:31.726 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:05:31.728 [main] ERROR a01203138.Lab7 - null
+2021-02-24 23:05:31.729 [main] INFO  a01203138.Lab7 - 2021-02-25T07:05:31.729515400Z
+2021-02-24 23:05:31.729 [main] INFO  a01203138.Lab7 - Duration: 551 ms
+2021-02-24 23:05:39.510 [main] INFO  a01203138.Lab7 - 2021-02-25T07:05:39.505262800Z
+2021-02-24 23:05:40.074 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:05:40.201 [main] DEBUG a01203138.data.CustomerDao - create table null(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(1), street VARCHAR(10), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:05:40.226 [main] INFO  a01203138.Lab7 - 2021-02-25T07:05:40.225524800Z
+2021-02-24 23:05:40.226 [main] INFO  a01203138.Lab7 - Duration: 720 ms
+2021-02-24 23:06:11.115 [main] INFO  a01203138.Lab7 - 2021-02-25T07:06:11.111826600Z
+2021-02-24 23:06:11.642 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:06:11.751 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-24 23:06:11.766 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(1), street VARCHAR(10), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:06:11.790 [main] INFO  a01203138.Lab7 - 2021-02-25T07:06:11.790302500Z
+2021-02-24 23:06:11.790 [main] INFO  a01203138.Lab7 - Duration: 678 ms
+2021-02-24 23:07:27.666 [main] INFO  a01203138.Lab7 - 2021-02-25T07:07:27.661881200Z
+2021-02-24 23:07:28.255 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:07:28.386 [main] ERROR a01203138.Lab7 - null
+2021-02-24 23:07:28.387 [main] INFO  a01203138.Lab7 - 2021-02-25T07:07:28.387579500Z
+2021-02-24 23:07:28.387 [main] INFO  a01203138.Lab7 - Duration: 725 ms
+2021-02-24 23:07:52.968 [main] INFO  a01203138.Lab7 - 2021-02-25T07:07:52.963972800Z
+2021-02-24 23:07:53.524 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:07:53.644 [main] DEBUG a01203138.data.CustomerDao - create table null(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(1), street VARCHAR(10), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:07:53.668 [main] INFO  a01203138.Lab7 - 2021-02-25T07:07:53.668363900Z
+2021-02-24 23:07:53.669 [main] INFO  a01203138.Lab7 - Duration: 704 ms
+2021-02-24 23:09:48.069 [main] INFO  a01203138.Lab7 - 2021-02-25T07:09:48.065320Z
+2021-02-24 23:09:48.621 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:09:48.746 [main] ERROR a01203138.Lab7 - null
+2021-02-24 23:09:48.746 [main] INFO  a01203138.Lab7 - 2021-02-25T07:09:48.746476700Z
+2021-02-24 23:09:48.747 [main] INFO  a01203138.Lab7 - Duration: 681 ms
+2021-02-24 23:10:50.551 [main] INFO  a01203138.Lab7 - 2021-02-25T07:10:50.546168800Z
+2021-02-24 23:10:51.143 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:10:51.290 [main] DEBUG a01203138.data.CustomerDao - create table null(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(1), street VARCHAR(10), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:10:51.317 [main] INFO  a01203138.Lab7 - 2021-02-25T07:10:51.317175800Z
+2021-02-24 23:10:51.317 [main] INFO  a01203138.Lab7 - Duration: 771 ms
+2021-02-24 23:13:09.785 [main] INFO  a01203138.Lab7 - 2021-02-25T07:13:09.781625200Z
+2021-02-24 23:13:10.338 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:13:10.466 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(1), street VARCHAR(10), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:13:10.490 [main] INFO  a01203138.Lab7 - 2021-02-25T07:13:10.490971400Z
+2021-02-24 23:13:10.490 [main] INFO  a01203138.Lab7 - Duration: 709 ms
+2021-02-24 23:14:29.819 [main] INFO  a01203138.Lab7 - 2021-02-25T07:14:29.815890600Z
+2021-02-24 23:14:30.407 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:14:30.553 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(1), street VARCHAR(10), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:14:30.577 [main] INFO  a01203138.Lab7 - 2021-02-25T07:14:30.577621600Z
+2021-02-24 23:14:30.577 [main] INFO  a01203138.Lab7 - Duration: 761 ms
+2021-02-24 23:15:44.054 [main] INFO  a01203138.Lab7 - 2021-02-25T07:15:44.049148Z
+2021-02-24 23:15:44.609 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:15:44.741 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(1), street VARCHAR(10), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:15:44.764 [main] ERROR a01203138.db.Database - The identifier that starts with 'id=1, firstName=Fred, lastName=Fish, streetName=5707 Sidley St, city=Burnaby, postalCode=V5J 5E6, phone=(604) 433-5004, emailAdd' is too long. Maximum length is 128.
+2021-02-24 23:15:44.765 [main] INFO  a01203138.Lab7 - 2021-02-25T07:15:44.765934Z
+2021-02-24 23:15:44.765 [main] INFO  a01203138.Lab7 - Duration: 716 ms
+2021-02-24 23:16:29.808 [main] INFO  a01203138.Lab7 - 2021-02-25T07:16:29.803979600Z
+2021-02-24 23:16:30.362 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:16:30.495 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(1), street VARCHAR(10), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:16:30.496 [main] DEBUG a01203138.db.Dao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(1), street VARCHAR(10), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:16:30.520 [main] INFO  a01203138.Lab7 - 2021-02-25T07:16:30.520399200Z
+2021-02-24 23:16:30.521 [main] INFO  a01203138.Lab7 - Duration: 716 ms
+2021-02-24 23:16:42.118 [main] INFO  a01203138.Lab7 - 2021-02-25T07:16:42.115000300Z
+2021-02-24 23:16:42.645 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:16:42.783 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(1), street VARCHAR(10), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:16:42.806 [main] ERROR a01203138.db.Database - The identifier that starts with 'id=1, firstName=Fred, lastName=Fish, streetName=5707 Sidley St, city=Burnaby, postalCode=V5J 5E6, phone=(604) 433-5004, emailAdd' is too long. Maximum length is 128.
+2021-02-24 23:16:42.807 [main] INFO  a01203138.Lab7 - 2021-02-25T07:16:42.807171400Z
+2021-02-24 23:16:42.807 [main] INFO  a01203138.Lab7 - Duration: 692 ms
+2021-02-24 23:27:00.054 [main] INFO  a01203138.Lab7 - 2021-02-25T07:27:00.049089700Z
+2021-02-24 23:27:00.589 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:27:00.742 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(1), street VARCHAR(10), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:27:00.764 [main] ERROR a01203138.db.Database - Incorrect syntax near 'Sidley'.
+2021-02-24 23:27:00.766 [main] INFO  a01203138.Lab7 - 2021-02-25T07:27:00.766217900Z
+2021-02-24 23:27:00.766 [main] INFO  a01203138.Lab7 - Duration: 717 ms
+2021-02-24 23:29:46.555 [main] INFO  a01203138.Lab7 - 2021-02-25T07:29:46.551536800Z
+2021-02-24 23:29:47.161 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:29:47.300 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(15), street VARCHAR(10), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:29:47.323 [main] ERROR a01203138.db.Database - Incorrect syntax near 'Sidley'.
+2021-02-24 23:29:47.324 [main] INFO  a01203138.Lab7 - 2021-02-25T07:29:47.324130100Z
+2021-02-24 23:29:47.324 [main] INFO  a01203138.Lab7 - Duration: 772 ms
+2021-02-24 23:30:05.150 [main] INFO  a01203138.Lab7 - 2021-02-25T07:30:05.146169400Z
+2021-02-24 23:30:05.730 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:30:05.867 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(15), street VARCHAR(20), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:30:05.889 [main] ERROR a01203138.db.Database - Incorrect syntax near 'Sidley'.
+2021-02-24 23:30:05.890 [main] INFO  a01203138.Lab7 - 2021-02-25T07:30:05.890129500Z
+2021-02-24 23:30:05.890 [main] INFO  a01203138.Lab7 - Duration: 743 ms
+2021-02-24 23:32:54.374 [main] INFO  a01203138.Lab7 - 2021-02-25T07:32:54.369560Z
+2021-02-24 23:32:54.942 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:32:55.065 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(15), street VARCHAR(20), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:32:55.087 [main] ERROR a01203138.db.Database - Incorrect syntax near 'Sidley'.
+2021-02-24 23:32:55.088 [main] INFO  a01203138.Lab7 - 2021-02-25T07:32:55.088144800Z
+2021-02-24 23:32:55.088 [main] INFO  a01203138.Lab7 - Duration: 718 ms
+2021-02-24 23:33:36.379 [main] INFO  a01203138.Lab7 - 2021-02-25T07:33:36.375971800Z
+2021-02-24 23:33:36.943 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:33:37.070 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(15), street VARCHAR(20), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:33:37.092 [main] ERROR a01203138.db.Database - Incorrect syntax near 'Sidley'.
+2021-02-24 23:33:37.094 [main] INFO  a01203138.Lab7 - 2021-02-25T07:33:37.094414600Z
+2021-02-24 23:33:37.094 [main] INFO  a01203138.Lab7 - Duration: 718 ms
+2021-02-24 23:35:28.385 [main] INFO  a01203138.Lab7 - 2021-02-25T07:35:28.380420400Z
+2021-02-24 23:35:28.971 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:35:29.100 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(15), street VARCHAR(20), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:35:29.123 [main] ERROR a01203138.db.Database - Incorrect syntax near 'Sidley'.
+2021-02-24 23:35:29.124 [main] INFO  a01203138.Lab7 - 2021-02-25T07:35:29.124599Z
+2021-02-24 23:35:29.125 [main] INFO  a01203138.Lab7 - Duration: 744 ms
+2021-02-24 23:35:45.193 [main] INFO  a01203138.Lab7 - 2021-02-25T07:35:45.189657200Z
+2021-02-24 23:35:45.759 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:35:45.881 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(15), street VARCHAR(20), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:35:45.883 [main] ERROR a01203138.Lab7 - Format specifier '%s'
+2021-02-24 23:35:45.884 [main] INFO  a01203138.Lab7 - 2021-02-25T07:35:45.884215200Z
+2021-02-24 23:35:45.884 [main] INFO  a01203138.Lab7 - Duration: 694 ms
+2021-02-24 23:36:54.412 [main] INFO  a01203138.Lab7 - 2021-02-25T07:36:54.407091100Z
+2021-02-24 23:36:54.971 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:36:55.104 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(15), street VARCHAR(20), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:36:55.127 [main] ERROR a01203138.db.Database - Incorrect syntax near 'Sidley'.
+2021-02-24 23:36:55.129 [main] INFO  a01203138.Lab7 - 2021-02-25T07:36:55.129627700Z
+2021-02-24 23:36:55.129 [main] INFO  a01203138.Lab7 - Duration: 722 ms
+2021-02-24 23:38:04.829 [main] INFO  a01203138.Lab7 - 2021-02-25T07:38:04.824374900Z
+2021-02-24 23:38:05.405 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:38:05.534 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(15), street VARCHAR(20), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:38:05.555 [main] ERROR a01203138.db.Database - Incorrect syntax near 'Sidley'.
+2021-02-24 23:38:05.557 [main] INFO  a01203138.Lab7 - 2021-02-25T07:38:05.557736800Z
+2021-02-24 23:38:05.557 [main] INFO  a01203138.Lab7 - Duration: 733 ms
+2021-02-24 23:40:09.563 [main] INFO  a01203138.Lab7 - 2021-02-25T07:40:09.558694300Z
+2021-02-24 23:40:10.105 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:40:10.240 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(15), street VARCHAR(20), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:40:10.240 [main] DEBUG a01203138.data.CustomerDao - insert into null values('1', 'Fred', 'Fish', '5707 Sidley St', 'Burnaby', 'V5J 5E6', '(604) 433-5004', 'fredfish@imperial.net', '20080322')
+2021-02-24 23:40:10.263 [main] ERROR a01203138.db.Database - Incorrect syntax near the keyword 'null'.
+2021-02-24 23:40:10.264 [main] INFO  a01203138.Lab7 - 2021-02-25T07:40:10.264707100Z
+2021-02-24 23:40:10.264 [main] INFO  a01203138.Lab7 - Duration: 706 ms
+2021-02-24 23:41:17.072 [main] INFO  a01203138.Lab7 - 2021-02-25T07:41:17.067349Z
+2021-02-24 23:41:17.654 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:41:17.801 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(15), street VARCHAR(20), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:41:17.801 [main] DEBUG a01203138.data.CustomerDao - insert into A01203138_Customer values('1', 'Fred', 'Fish', '5707 Sidley St', 'Burnaby', 'V5J 5E6', '(604) 433-5004', 'fredfish@imperial.net', '20080322')
+2021-02-24 23:41:17.827 [main] ERROR a01203138.db.Database - String or binary data would be truncated.
+2021-02-24 23:41:17.829 [main] INFO  a01203138.Lab7 - 2021-02-25T07:41:17.829706600Z
+2021-02-24 23:41:17.829 [main] INFO  a01203138.Lab7 - Duration: 762 ms
+2021-02-24 23:42:28.013 [main] INFO  a01203138.Lab7 - 2021-02-25T07:42:28.008627100Z
+2021-02-24 23:42:28.597 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:42:28.743 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(15), street VARCHAR(20), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:42:28.743 [main] DEBUG a01203138.data.CustomerDao - insert into A01203138_Customer values('1', 'Fred', 'Fish', '5707 Sidley St', 'Burnaby', 'V5J 5E6', '(604) 433-5004', 'fredfish@imperial.net', '20080322')
+2021-02-24 23:42:28.771 [main] ERROR a01203138.db.Database - String or binary data would be truncated.
+2021-02-24 23:42:28.773 [main] INFO  a01203138.Lab7 - 2021-02-25T07:42:28.773283200Z
+2021-02-24 23:42:28.773 [main] INFO  a01203138.Lab7 - Duration: 764 ms
+2021-02-24 23:44:52.736 [main] INFO  a01203138.Lab7 - 2021-02-25T07:44:52.732919200Z
+2021-02-24 23:44:53.309 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:44:53.454 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(15), street VARCHAR(20), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE, primary key (Id) )
+2021-02-24 23:44:53.455 [main] DEBUG a01203138.data.CustomerDao - insert into A01203138_Customer values('1', 'Fred', 'Fish', '5707 Sidley St', 'Burnaby', 'V5J 5E6', '(604) 433-5004', 'fredfish@imperial.net', '20080322')
+2021-02-24 23:44:53.479 [main] ERROR a01203138.db.Database - String or binary data would be truncated.
+2021-02-24 23:44:53.481 [main] INFO  a01203138.Lab7 - 2021-02-25T07:44:53.481931200Z
+2021-02-24 23:44:53.481 [main] INFO  a01203138.Lab7 - Duration: 749 ms
+2021-02-24 23:48:13.853 [main] INFO  a01203138.Lab7 - 2021-02-25T07:48:13.848944500Z
+2021-02-24 23:48:14.411 [main] INFO  a01203138.db.Database - Database connected
+2021-02-24 23:48:14.535 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(15), street VARCHAR(20), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE 
+2021-02-24 23:48:14.536 [main] DEBUG a01203138.data.CustomerDao - insert into A01203138_Customer values('1', 'Fred', 'Fish', '5707 Sidley St', 'Burnaby', 'V5J 5E6', '(604) 433-5004', 'fredfish@imperial.net', '20080322')
+2021-02-24 23:48:14.559 [main] ERROR a01203138.db.Database - String or binary data would be truncated.
+2021-02-24 23:48:14.561 [main] INFO  a01203138.Lab7 - 2021-02-25T07:48:14.561656300Z
+2021-02-24 23:48:14.561 [main] INFO  a01203138.Lab7 - Duration: 712 ms
+2021-02-25 17:42:48.122 [main] INFO  a01203138.Lab7 - 2021-02-26T01:42:48.116668200Z
+2021-02-25 17:42:49.179 [main] INFO  a01203138.db.Database - Database connected
+2021-02-25 17:42:49.441 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(9), firstName VARCHAR(10), lastName VARCHAR(15), street VARCHAR(20), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE 
+2021-02-25 17:42:49.441 [main] DEBUG a01203138.data.CustomerDao - insert into A01203138_Customer values('1', 'Fred', 'Fish', '5707 Sidley St', 'Burnaby', 'V5J 5E6', '(604) 433-5004', 'fredfish@imperial.net', '20080322')
+2021-02-25 17:42:49.478 [main] ERROR a01203138.db.Database - String or binary data would be truncated.
+2021-02-25 17:42:49.481 [main] INFO  a01203138.Lab7 - 2021-02-26T01:42:49.481811700Z
+2021-02-25 17:42:49.481 [main] INFO  a01203138.Lab7 - Duration: 1365 ms
+2021-02-25 17:43:47.082 [main] INFO  a01203138.Lab7 - 2021-02-26T01:43:47.075552800Z
+2021-02-25 17:43:47.835 [main] INFO  a01203138.db.Database - Database connected
+2021-02-25 17:43:47.979 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(2), firstName VARCHAR(10), lastName VARCHAR(15), street VARCHAR(20), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE 
+2021-02-25 17:43:47.979 [main] DEBUG a01203138.data.CustomerDao - insert into A01203138_Customer values('1', 'Fred', 'Fish', '5707 Sidley St', 'Burnaby', 'V5J 5E6', '(604) 433-5004', 'fredfish@imperial.net', '20080322')
+2021-02-25 17:43:48.007 [main] ERROR a01203138.db.Database - String or binary data would be truncated.
+2021-02-25 17:43:48.009 [main] INFO  a01203138.Lab7 - 2021-02-26T01:43:48.009233700Z
+2021-02-25 17:43:48.010 [main] INFO  a01203138.Lab7 - Duration: 933 ms
+2021-02-25 17:44:17.537 [main] INFO  a01203138.Lab7 - 2021-02-26T01:44:17.524735400Z
+2021-02-25 17:44:18.553 [main] INFO  a01203138.db.Database - Database connected
+2021-02-25 17:44:18.848 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id VARCHAR(2), firstName VARCHAR(10), lastName VARCHAR(15), street VARCHAR(20), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE 
+2021-02-25 17:44:18.849 [main] DEBUG a01203138.data.CustomerDao - insert into A01203138_Customer values('1', 'Fred', 'Fish', '5707 Sidley St', 'Burnaby', 'V5J 5E6', '(604) 433-5004', 'fredfish@imperial.net', '20080322')
+2021-02-25 17:44:18.898 [main] ERROR a01203138.db.Database - String or binary data would be truncated.
+2021-02-25 17:44:18.903 [main] INFO  a01203138.Lab7 - 2021-02-26T01:44:18.903283900Z
+2021-02-25 17:44:18.904 [main] INFO  a01203138.Lab7 - Duration: 1378 ms
+2021-02-25 17:50:33.114 [main] INFO  a01203138.Lab7 - 2021-02-26T01:50:33.106420800Z
+2021-02-25 17:50:34.250 [main] INFO  a01203138.db.Database - Database connected
+2021-02-25 17:50:34.513 [main] DEBUG a01203138.data.CustomerDao - create table A01203138_Customer(Id BIGINT, firstName VARCHAR(10), lastName VARCHAR(15), street VARCHAR(20), city VARCHAR(10), postalCode VARCHAR(10), phone VARCHAR(20), email VARCHAR(10), joinDate DATE 
+2021-02-25 17:50:34.514 [main] DEBUG a01203138.data.CustomerDao - insert into A01203138_Customer values('1', 'Fred', 'Fish', '5707 Sidley St', 'Burnaby', 'V5J 5E6', '(604) 433-5004', 'fredfish@imperial.net', '20080322')
+2021-02-25 17:50:34.549 [main] ERROR a01203138.db.Database - String or binary data would be truncated.
+2021-02-25 17:50:34.552 [main] INFO  a01203138.Lab7 - 2021-02-26T01:50:34.552209800Z
+2021-02-25 17:50:34.552 [main] INFO  a01203138.Lab7 - Duration: 1445 ms
+2021-02-25 18:01:37.051 [main] INFO  a01203138.Lab7 - 2021-02-26T02:01:37.042971600Z
+2021-02-25 18:01:38.266 [main] INFO  a01203138.db.Database - Database connected
+2021-02-25 18:01:38.514 [main] DEBUG a01203138.data.CustomerDao - CREATE TABLE A01203138_Customer(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 18:01:38.516 [main] DEBUG a01203138.data.CustomerDao - insert into A01203138_Customer values('1', 'Fred', 'Fish', '5707 Sidley St', 'Burnaby', 'V5J 5E6', '(604) 433-5004', 'fredfish@imperial.net', '20080322')
+2021-02-25 18:01:38.559 [main] ERROR a01203138.db.Database - String or binary data would be truncated.
+2021-02-25 18:01:38.562 [main] INFO  a01203138.Lab7 - 2021-02-26T02:01:38.562739700Z
+2021-02-25 18:01:38.563 [main] INFO  a01203138.Lab7 - Duration: 1519 ms
+2021-02-25 18:14:01.913 [main] INFO  a01203138.Lab7 - 2021-02-26T02:14:01.906285100Z
+2021-02-25 18:58:56.098 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T02:58:55.367211500Z
+2021-02-25 18:58:56.105 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 18:58:57.280 [main] INFO  a01203138.db.Database - Database connected
+2021-02-25 18:58:57.636 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 18:58:57.708 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 18:58:57.745 [main] DEBUG a01203138.data.CustomerDao - CREATE TABLE A01203138_Customer(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 18:58:57.746 [main] DEBUG a01203138.db.Dao - CREATE TABLE A01203138_Customer(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 18:58:57.783 [main] ERROR a01203138.Lab7 - null
+2021-02-25 18:58:57.783 [main] INFO  a01203138.Lab7 - End: 2021-02-26T02:58:57.783058700Z
+2021-02-25 18:58:57.784 [main] INFO  a01203138.Lab7 - Duration: 2415 ms
+2021-02-25 19:00:25.129 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:00:24.317608100Z
+2021-02-25 19:00:25.139 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:00:26.291 [main] INFO  a01203138.db.Database - Database connected
+2021-02-25 19:00:26.506 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:00:26.560 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:00:26.577 [main] DEBUG a01203138.data.CustomerDao - CREATE TABLE A01203138_Customer(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:00:26.577 [main] DEBUG a01203138.db.Dao - CREATE TABLE A01203138_Customer(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:00:26.602 [main] ERROR a01203138.Lab7 - null
+2021-02-25 19:00:26.603 [main] INFO  a01203138.Lab7 - End: 2021-02-26T03:00:26.603089200Z
+2021-02-25 19:00:26.604 [main] INFO  a01203138.Lab7 - Duration: 2285 ms
+2021-02-25 19:00:49.487 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:00:48.653287500Z
+2021-02-25 19:00:49.494 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:00:50.762 [main] INFO  a01203138.db.Database - Database connected
+2021-02-25 19:00:51.013 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:00:51.084 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:00:51.120 [main] DEBUG a01203138.data.CustomerDao - CREATE TABLE A01203138_Customer(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:00:51.120 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 19:00:51.142 [main] DEBUG a01203138.data.CustomerDao - insert into A01203138_Customer values('1', 'Fred', 'Fish', '5707 Sidley St', 'Burnaby', 'V5J 5E6', '(604) 433-5004', 'fredfish@imperial.net', '2008-03-22')
+2021-02-25 19:00:51.184 [main] ERROR a01203138.Lab7 - null
+2021-02-25 19:00:51.185 [main] INFO  a01203138.Lab7 - End: 2021-02-26T03:00:51.185505Z
+2021-02-25 19:00:51.186 [main] INFO  a01203138.Lab7 - Duration: 2532 ms
+2021-02-25 19:01:28.656 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:01:27.558837400Z
+2021-02-25 19:01:28.670 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:01:29.985 [main] INFO  a01203138.db.Database - Database connected
+2021-02-25 19:01:30.238 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:01:30.320 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:01:30.341 [main] DEBUG a01203138.data.CustomerDao - CREATE TABLE A01203138_Customer(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:01:30.342 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 19:01:30.378 [main] DEBUG a01203138.data.CustomerDao - insert into A01203138_Customer values('1', 'Fred', 'Fish', '5707 Sidley St', 'Burnaby', 'V5J 5E6', '(604) 433-5004', 'fredfish@imperial.net', '2008-03-22')
+2021-02-25 19:01:30.426 [main] ERROR a01203138.Lab7 - null
+2021-02-25 19:01:30.427 [main] INFO  a01203138.Lab7 - End: 2021-02-26T03:01:30.427204400Z
+2021-02-25 19:01:30.428 [main] INFO  a01203138.Lab7 - Duration: 2868 ms
+2021-02-25 19:02:29.643 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:02:28.198583700Z
+2021-02-25 19:02:29.650 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:02:31.162 [main] INFO  a01203138.db.Database - Database connected
+2021-02-25 19:02:31.488 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:02:31.569 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:02:31.588 [main] DEBUG a01203138.data.CustomerDao - CREATE TABLE A01203138_Customer(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:02:31.589 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 19:02:31.601 [main] DEBUG a01203138.data.CustomerDao - insert into A01203138_Customer values('1', 'Fred', 'Fish', '5707 Sidley St', 'Burnaby', 'V5J 5E6', '(604) 433-5004', 'fredfish@imperial.net', '2008-03-22')
+2021-02-25 19:02:31.657 [main] ERROR a01203138.Lab7 - null
+2021-02-25 19:02:31.657 [main] INFO  a01203138.Lab7 - End: 2021-02-26T03:02:31.657051300Z
+2021-02-25 19:02:31.658 [main] INFO  a01203138.Lab7 - Duration: 3458 ms
+2021-02-25 19:08:32.900 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:08:32.174776200Z
+2021-02-25 19:08:32.906 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:08:34.025 [main] INFO  a01203138.db.Database - Database connected
+2021-02-25 19:08:34.380 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:08:34.457 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:08:34.480 [main] DEBUG a01203138.data.CustomerDao - CREATE TABLE A01203138_Customer(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:08:34.481 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 19:08:34.495 [main] DEBUG a01203138.data.CustomerDao - insert into A01203138_Customer values('1', 'Fred', 'Fish', '5707 Sidley St', 'Burnaby', 'V5J 5E6', '(604) 433-5004', 'fredfish@imperial.net', '2008-03-22')
+2021-02-25 19:08:34.551 [main] ERROR a01203138.Lab7 - null
+2021-02-25 19:08:34.552 [main] INFO  a01203138.Lab7 - End: 2021-02-26T03:08:34.552645400Z
+2021-02-25 19:08:34.553 [main] INFO  a01203138.Lab7 - Duration: 2377 ms
+2021-02-25 19:12:20.263 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:12:19.253985400Z
+2021-02-25 19:12:20.278 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:12:20.282 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 19:12:20.456 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 19:12:20.456 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 19:12:20.456 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 19:12:20.457 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 19:12:21.319 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 19:12:21.573 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:12:21.650 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:12:21.680 [main] DEBUG a01203138.data.CustomerDao - CREATE TABLE A01203138_Customer(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:12:21.682 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 19:12:21.698 [main] DEBUG a01203138.data.CustomerDao - insert into A01203138_Customer values('1', 'Fred', 'Fish', '5707 Sidley St', 'Burnaby', 'V5J 5E6', '(604) 433-5004', 'fredfish@imperial.net', '2008-03-22')
+2021-02-25 19:12:21.747 [main] ERROR a01203138.Lab7 - null
+2021-02-25 19:12:21.748 [main] INFO  a01203138.Lab7 - End: 2021-02-26T03:12:21.748050500Z
+2021-02-25 19:12:21.749 [main] INFO  a01203138.Lab7 - Duration: 2494 ms
+2021-02-25 19:13:41.540 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:13:40.424659100Z
+2021-02-25 19:13:41.545 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:14:31.102 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:14:30.043501600Z
+2021-02-25 19:14:31.112 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:14:31.116 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 19:14:31.381 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 19:14:31.381 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 19:14:31.382 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 19:14:31.382 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 19:14:32.427 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 19:14:32.870 [main] DEBUG a01203138.data.CustomerDao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:14:32.872 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 19:14:32.885 [main] DEBUG a01203138.data.CustomerDao - insert into A01203138_Customers values('1', 'Fred', 'Fish', '5707 Sidley St', 'Burnaby', 'V5J 5E6', '(604) 433-5004', 'fredfish@imperial.net', '2008-03-22')
+2021-02-25 19:14:32.914 [main] ERROR a01203138.Lab7 - null
+2021-02-25 19:14:32.916 [main] INFO  a01203138.Lab7 - End: 2021-02-26T03:14:32.915764700Z
+2021-02-25 19:14:32.916 [main] INFO  a01203138.Lab7 - Duration: 2872 ms
+2021-02-25 19:22:21.790 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:22:20.435665100Z
+2021-02-25 19:22:21.800 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:22:21.804 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 19:22:21.959 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 19:22:21.959 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 19:22:21.959 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 19:22:21.960 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 19:22:22.849 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 19:22:23.201 [main] DEBUG a01203138.data.CustomerDao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:22:23.202 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 19:22:23.214 [main] DEBUG a01203138.data.CustomerDao - insert into A01203138_Customers values('1', 'Fred', 'Fish', '5707 Sidley St', 'Burnaby', 'V5J 5E6', '(604) 433-5004', 'fredfish@imperial.net', '2008-03-22')
+2021-02-25 19:22:23.255 [main] ERROR a01203138.Lab7 - null
+2021-02-25 19:22:23.256 [main] INFO  a01203138.Lab7 - End: 2021-02-26T03:22:23.255918200Z
+2021-02-25 19:22:23.257 [main] INFO  a01203138.Lab7 - Duration: 2820 ms
+2021-02-25 19:22:55.989 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:22:55.513072200Z
+2021-02-25 19:22:55.993 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:22:55.996 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 19:22:56.071 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 19:22:56.071 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 19:22:56.072 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 19:22:56.072 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 19:22:57.431 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 19:22:57.743 [main] DEBUG a01203138.data.CustomerDao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:22:57.743 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 19:23:23.559 [main] DEBUG a01203138.data.CustomerDao - insert into A01203138_Customers values('1', 'Fred', 'Fish', '5707 Sidley St', 'Burnaby', 'V5J 5E6', '(604) 433-5004', 'fredfish@imperial.net', '2008-03-22')
+2021-02-25 19:23:47.091 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:23:46.362555100Z
+2021-02-25 19:23:47.099 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:23:47.104 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 19:23:47.207 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 19:23:47.207 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 19:23:47.207 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 19:23:47.208 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 19:23:48.210 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 19:23:48.492 [main] DEBUG a01203138.data.CustomerDao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:23:48.492 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 19:24:06.195 [main] DEBUG a01203138.data.CustomerDao - insert into A01203138_Customers values('1', 'Fred', 'Fish', '5707 Sidley St', 'Burnaby', 'V5J 5E6', '(604) 433-5004', 'fredfish@imperial.net', '2008-03-22')
+2021-02-25 19:31:01.674 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:31:01.050039800Z
+2021-02-25 19:31:01.680 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:31:01.683 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 19:31:01.849 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 19:31:01.849 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 19:31:01.849 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 19:31:01.849 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 19:31:02.860 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 19:31:03.202 [main] DEBUG a01203138.data.CustomerDao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:31:03.203 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 19:31:56.383 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:31:55.622283100Z
+2021-02-25 19:31:56.388 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:31:56.390 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 19:31:56.484 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 19:31:56.485 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 19:31:56.485 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 19:31:56.485 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 19:31:57.251 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 19:31:57.510 [main] DEBUG a01203138.data.CustomerDao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:31:57.510 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 19:32:22.731 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:32:22.133924300Z
+2021-02-25 19:32:22.737 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:32:22.740 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 19:32:22.882 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 19:32:22.882 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 19:32:22.883 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 19:32:22.883 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 19:32:23.668 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 19:32:23.931 [main] DEBUG a01203138.data.CustomerDao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:32:23.933 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 19:32:23.952 [main] DEBUG a01203138.db.Dao - INSERT INTO A01203138_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-02-25 19:32:23.995 [main] ERROR a01203138.Lab7 - null
+2021-02-25 19:32:23.997 [main] INFO  a01203138.Lab7 - End: 2021-02-26T03:32:23.997012300Z
+2021-02-25 19:32:23.997 [main] INFO  a01203138.Lab7 - Duration: 1863 ms
+2021-02-25 19:34:56.992 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:34:56.308401800Z
+2021-02-25 19:34:57.000 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:34:57.004 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 19:34:57.110 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 19:34:57.110 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 19:34:57.111 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 19:34:57.111 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 19:34:58.182 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 19:34:58.537 [main] DEBUG a01203138.data.CustomerDao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:34:58.537 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 19:34:58.548 [main] DEBUG a01203138.db.Dao - INSERT INTO A01203138_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-02-25 19:34:58.579 [main] ERROR a01203138.Lab7 - null
+2021-02-25 19:34:58.580 [main] INFO  a01203138.Lab7 - End: 2021-02-26T03:34:58.580443300Z
+2021-02-25 19:34:58.580 [main] INFO  a01203138.Lab7 - Duration: 2272 ms
+2021-02-25 19:35:13.779 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:35:13.016416Z
+2021-02-25 19:35:13.788 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:35:13.793 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 19:35:13.955 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 19:35:13.956 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 19:35:13.956 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 19:35:13.956 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 19:35:14.840 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 19:35:15.151 [main] DEBUG a01203138.data.CustomerDao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:35:15.151 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 19:35:15.163 [main] DEBUG a01203138.db.Dao - INSERT INTO A01203138_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-02-25 19:35:15.196 [main] ERROR a01203138.Lab7 - null
+2021-02-25 19:35:15.196 [main] INFO  a01203138.Lab7 - End: 2021-02-26T03:35:15.196699300Z
+2021-02-25 19:35:15.196 [main] INFO  a01203138.Lab7 - Duration: 2180 ms
+2021-02-25 19:37:12.913 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:37:12.297282Z
+2021-02-25 19:37:12.917 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:37:12.925 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 19:37:13.018 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 19:37:13.018 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 19:37:13.018 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 19:37:13.018 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 19:37:13.883 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 19:37:14.223 [main] DEBUG a01203138.data.CustomerDao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:37:14.224 [main] DEBUG a01203138.db.Dao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:37:14.249 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 19:37:14.273 [main] DEBUG a01203138.db.Dao - INSERT INTO A01203138_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-02-25 19:37:14.338 [main] ERROR a01203138.Lab7 - null
+2021-02-25 19:37:14.339 [main] INFO  a01203138.Lab7 - End: 2021-02-26T03:37:14.339230700Z
+2021-02-25 19:37:14.340 [main] INFO  a01203138.Lab7 - Duration: 2041 ms
+2021-02-25 19:40:16.642 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:40:15.461367Z
+2021-02-25 19:40:16.650 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:40:16.655 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 19:40:16.821 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 19:40:16.821 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 19:40:16.822 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 19:40:16.822 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 19:40:17.866 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 19:40:18.176 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:40:18.246 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:40:18.269 [main] DEBUG a01203138.data.CustomerDao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:40:18.270 [main] DEBUG a01203138.db.Dao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:40:18.301 [main] ERROR a01203138.Lab7 - null
+2021-02-25 19:40:18.301 [main] INFO  a01203138.Lab7 - End: 2021-02-26T03:40:18.301581300Z
+2021-02-25 19:40:18.303 [main] INFO  a01203138.Lab7 - Duration: 2840 ms
+2021-02-25 19:41:44.772 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:41:43.680897900Z
+2021-02-25 19:41:44.781 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:41:44.798 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 19:41:45.090 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 19:41:45.090 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 19:41:45.091 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 19:41:45.091 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 19:41:46.122 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 19:41:46.496 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:41:46.587 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:41:46.615 [main] DEBUG a01203138.data.CustomerDao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:41:46.616 [main] DEBUG a01203138.db.Dao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:41:46.667 [main] ERROR a01203138.Lab7 - null
+2021-02-25 19:41:46.668 [main] INFO  a01203138.Lab7 - End: 2021-02-26T03:41:46.667010500Z
+2021-02-25 19:41:46.669 [main] INFO  a01203138.Lab7 - Duration: 2986 ms
+2021-02-25 19:44:52.462 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:44:51.673323100Z
+2021-02-25 19:44:52.476 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:44:52.494 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 19:44:52.758 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 19:44:52.759 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 19:44:52.759 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 19:44:52.760 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 19:44:53.652 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 19:44:53.914 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:44:53.992 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:44:54.014 [main] DEBUG a01203138.data.CustomerDao - Creating database table A01203138_Customers
+2021-02-25 19:44:54.034 [main] DEBUG a01203138.db.Dao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:44:54.076 [main] ERROR a01203138.Lab7 - null
+2021-02-25 19:44:54.077 [main] INFO  a01203138.Lab7 - End: 2021-02-26T03:44:54.077341900Z
+2021-02-25 19:44:54.078 [main] INFO  a01203138.Lab7 - Duration: 2404 ms
+2021-02-25 19:45:35.975 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:45:35.008158700Z
+2021-02-25 19:45:35.982 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:45:35.990 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 19:45:36.103 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 19:45:36.104 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 19:45:36.104 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 19:45:36.104 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 19:45:37.112 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 19:45:37.430 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:45:37.503 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:45:37.525 [main] DEBUG a01203138.data.CustomerDao - Creating database table A01203138_Customers
+2021-02-25 19:45:37.546 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 19:45:37.572 [main] DEBUG a01203138.db.Dao - INSERT INTO A01203138_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-02-25 19:45:37.629 [main] ERROR a01203138.Lab7 - null
+2021-02-25 19:45:37.631 [main] INFO  a01203138.Lab7 - End: 2021-02-26T03:45:37.630150Z
+2021-02-25 19:45:37.631 [main] INFO  a01203138.Lab7 - Duration: 2621 ms
+2021-02-25 19:46:16.101 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:46:14.804102200Z
+2021-02-25 19:46:16.116 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:46:16.140 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 19:46:16.466 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 19:46:16.467 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 19:46:16.468 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 19:46:16.468 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 19:46:17.430 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 19:46:17.765 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:46:17.843 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:46:17.866 [main] DEBUG a01203138.data.CustomerDao - Creating database table A01203138_Customers
+2021-02-25 19:46:17.885 [main] DEBUG a01203138.db.Dao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:46:17.916 [main] ERROR a01203138.Lab7 - null
+2021-02-25 19:46:17.917 [main] INFO  a01203138.Lab7 - End: 2021-02-26T03:46:17.916559700Z
+2021-02-25 19:46:17.917 [main] INFO  a01203138.Lab7 - Duration: 3112 ms
+2021-02-25 19:53:00.582 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:52:59.621956600Z
+2021-02-25 19:53:00.591 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:53:00.605 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 19:53:00.790 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 19:53:00.791 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 19:53:00.791 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 19:53:00.791 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 19:53:01.752 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 19:53:02.083 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:53:02.162 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:53:02.184 [main] DEBUG a01203138.data.CustomerDao - Creating database table A01203138_Customers
+2021-02-25 19:53:02.209 [main] DEBUG a01203138.db.Dao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:53:02.249 [main] ERROR a01203138.Lab7 - null
+2021-02-25 19:53:02.249 [main] INFO  a01203138.Lab7 - End: 2021-02-26T03:53:02.249803100Z
+2021-02-25 19:53:02.250 [main] INFO  a01203138.Lab7 - Duration: 2627 ms
+2021-02-25 19:53:21.707 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:53:20.221633800Z
+2021-02-25 19:53:21.715 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:53:21.729 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 19:53:21.975 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 19:53:21.977 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 19:53:21.977 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 19:53:21.977 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 19:53:23.283 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 19:53:23.624 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:53:23.688 [main] DEBUG a01203138.db.Database - Found the target table named: 
+2021-02-25 19:53:23.705 [main] DEBUG a01203138.data.CustomerDao - Creating database table A01203138_Customers
+2021-02-25 19:53:23.721 [main] DEBUG a01203138.db.Dao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:53:23.762 [main] ERROR a01203138.Lab7 - null
+2021-02-25 19:53:23.763 [main] INFO  a01203138.Lab7 - End: 2021-02-26T03:53:23.763580100Z
+2021-02-25 19:53:23.765 [main] INFO  a01203138.Lab7 - Duration: 3541 ms
+2021-02-25 19:56:16.941 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:56:16.226201700Z
+2021-02-25 19:56:16.948 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:56:16.952 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 19:56:17.115 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 19:56:17.116 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 19:56:17.116 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 19:56:17.116 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 19:56:18.016 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 19:56:18.352 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 19:56:18.385 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 19:56:18.422 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 19:56:18.423 [main] DEBUG a01203138.db.Dao - drop table A01203138_Customers
+2021-02-25 19:56:18.444 [main] DEBUG a01203138.data.CustomerDao - Creating database table A01203138_Customers
+2021-02-25 19:56:18.455 [main] DEBUG a01203138.db.Dao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 19:56:18.467 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 19:56:18.487 [main] DEBUG a01203138.db.Dao - INSERT INTO A01203138_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-02-25 19:56:18.544 [main] ERROR a01203138.Lab7 - null
+2021-02-25 19:56:18.545 [main] INFO  a01203138.Lab7 - End: 2021-02-26T03:56:18.545346300Z
+2021-02-25 19:56:18.545 [main] INFO  a01203138.Lab7 - Duration: 2319 ms
+2021-02-25 19:58:37.071 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T03:58:36.399553800Z
+2021-02-25 19:58:37.077 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 19:58:37.080 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 19:58:37.186 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 19:58:37.187 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 19:58:37.187 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 19:58:37.187 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 19:58:38.127 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 19:58:38.479 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 19:58:38.489 [main] INFO  a01203138.CustomerDaoTest - Getting the customer IDs
+2021-02-25 19:58:38.491 [main] DEBUG a01203138.data.CustomerDao - SELECT id FROM A01203138_Customers
+2021-02-25 19:58:38.514 [main] DEBUG a01203138.data.CustomerDao - Loaded 0 customer IDs from the database
+2021-02-25 19:58:38.514 [main] INFO  a01203138.CustomerDaoTest - Customer IDs: []
+2021-02-25 19:58:38.536 [main] INFO  a01203138.CustomerDaoTest - 0
+2021-02-25 19:58:38.537 [main] INFO  a01203138.Lab7 - End: 2021-02-26T03:58:38.537316500Z
+2021-02-25 19:58:38.538 [main] INFO  a01203138.Lab7 - Duration: 2137 ms
+2021-02-25 20:04:37.591 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T04:04:36.781503800Z
+2021-02-25 20:04:37.596 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 20:04:37.608 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 20:04:37.675 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 20:04:37.675 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 20:04:37.675 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 20:04:37.676 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 20:04:38.921 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 20:04:39.196 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:04:39.205 [main] INFO  a01203138.CustomerDaoTest - Getting the customer IDs
+2021-02-25 20:04:39.214 [main] DEBUG a01203138.data.CustomerDao - SELECT id FROM A01203138_Customers
+2021-02-25 20:06:09.642 [main] DEBUG a01203138.data.CustomerDao - Loaded 0 customer IDs from the database
+2021-02-25 20:06:14.656 [main] INFO  a01203138.CustomerDaoTest - Customer IDs: []
+2021-02-25 20:06:14.676 [main] INFO  a01203138.CustomerDaoTest - 0
+2021-02-25 20:06:14.677 [main] INFO  a01203138.Lab7 - End: 2021-02-26T04:06:14.677617100Z
+2021-02-25 20:06:14.677 [main] INFO  a01203138.Lab7 - Duration: 97896 ms
+2021-02-25 20:07:35.848 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T04:07:35.183799300Z
+2021-02-25 20:07:35.853 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 20:07:35.857 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 20:07:35.955 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 20:07:35.955 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 20:07:35.956 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 20:07:35.956 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 20:07:37.587 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 20:07:37.931 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:07:37.939 [main] INFO  a01203138.CustomerDaoTest - Getting the customer IDs
+2021-02-25 20:07:37.942 [main] DEBUG a01203138.data.CustomerDao - SELECT id FROM A01203138_Customers
+2021-02-25 20:07:37.958 [main] DEBUG a01203138.data.CustomerDao - Loaded 0 customer IDs from the database
+2021-02-25 20:07:37.959 [main] INFO  a01203138.CustomerDaoTest - Customer IDs: []
+2021-02-25 20:07:37.980 [main] INFO  a01203138.CustomerDaoTest - 0
+2021-02-25 20:07:37.981 [main] INFO  a01203138.Lab7 - End: 2021-02-26T04:07:37.980186900Z
+2021-02-25 20:07:37.982 [main] INFO  a01203138.Lab7 - Duration: 2796 ms
+2021-02-25 20:07:54.299 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T04:07:53.358012300Z
+2021-02-25 20:07:54.309 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 20:07:54.315 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 20:07:54.501 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 20:07:54.502 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 20:07:54.502 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 20:07:54.502 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 20:07:55.500 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 20:07:55.841 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:07:55.895 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:07:55.943 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:07:55.946 [main] DEBUG a01203138.db.Dao - drop table A01203138_Customers
+2021-02-25 20:07:55.960 [main] DEBUG a01203138.data.CustomerDao - Creating database table A01203138_Customers
+2021-02-25 20:07:55.965 [main] DEBUG a01203138.db.Dao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 20:07:55.980 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 20:07:56.010 [main] DEBUG a01203138.db.Dao - INSERT INTO A01203138_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-02-25 20:07:56.073 [main] ERROR a01203138.Lab7 - null
+2021-02-25 20:07:56.074 [main] INFO  a01203138.Lab7 - End: 2021-02-26T04:07:56.073941600Z
+2021-02-25 20:07:56.075 [main] INFO  a01203138.Lab7 - Duration: 2715 ms
+2021-02-25 20:11:58.047 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T04:11:56.833042100Z
+2021-02-25 20:11:58.061 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 20:11:58.084 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 20:11:58.268 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 20:11:58.268 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 20:11:58.269 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 20:11:58.269 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 20:11:59.578 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 20:11:59.819 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:11:59.863 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:11:59.916 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:11:59.918 [main] DEBUG a01203138.db.Dao - drop table A01203138_Customers
+2021-02-25 20:11:59.936 [main] DEBUG a01203138.data.CustomerDao - Creating database table A01203138_Customers
+2021-02-25 20:11:59.945 [main] DEBUG a01203138.db.Dao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 20:11:59.957 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 20:14:26.388 [main] DEBUG a01203138.db.Dao - INSERT INTO A01203138_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-02-25 20:17:18.607 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T04:17:18.063466200Z
+2021-02-25 20:17:18.619 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 20:17:18.647 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 20:17:18.831 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 20:17:18.832 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 20:17:18.832 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 20:17:18.832 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 20:17:19.629 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 20:17:19.974 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:17:20.021 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:17:20.068 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:17:20.071 [main] DEBUG a01203138.db.Dao - drop table A01203138_Customers
+2021-02-25 20:17:20.080 [main] DEBUG a01203138.data.CustomerDao - Creating database table A01203138_Customers
+2021-02-25 20:17:20.099 [main] DEBUG a01203138.db.Dao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 20:17:20.121 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 20:17:20.150 [main] DEBUG a01203138.db.Dao - INSERT INTO A01203138_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-02-25 20:17:20.218 [main] ERROR a01203138.Lab7 - null
+2021-02-25 20:17:20.219 [main] INFO  a01203138.Lab7 - End: 2021-02-26T04:17:20.218688200Z
+2021-02-25 20:17:20.219 [main] INFO  a01203138.Lab7 - Duration: 2155 ms
+2021-02-25 20:21:16.913 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T04:21:16.106370700Z
+2021-02-25 20:21:16.920 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 20:21:16.923 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 20:21:17.073 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 20:21:17.073 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 20:21:17.074 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 20:21:17.074 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 20:21:18.052 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 20:21:18.397 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:21:18.463 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:21:18.507 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:21:18.509 [main] DEBUG a01203138.db.Dao - drop table A01203138_Customers
+2021-02-25 20:21:18.532 [main] DEBUG a01203138.data.CustomerDao - Creating database table A01203138_Customers
+2021-02-25 20:21:18.537 [main] DEBUG a01203138.db.Dao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 20:21:18.558 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 20:21:18.593 [main] DEBUG a01203138.db.Dao - INSERT INTO A01203138_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-02-25 20:21:18.654 [main] ERROR a01203138.Lab7 - null
+2021-02-25 20:21:18.655 [main] INFO  a01203138.Lab7 - End: 2021-02-26T04:21:18.654643700Z
+2021-02-25 20:21:18.657 [main] INFO  a01203138.Lab7 - Duration: 2548 ms
+2021-02-25 20:22:01.367 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T04:22:00.060008500Z
+2021-02-25 20:22:01.377 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 20:22:01.405 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 20:22:01.546 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 20:22:01.547 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 20:22:01.547 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 20:22:01.547 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 20:22:02.847 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 20:22:03.107 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:22:03.143 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:22:03.179 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:22:03.188 [main] DEBUG a01203138.db.Dao - drop table A01203138_Customers
+2021-02-25 20:22:03.205 [main] DEBUG a01203138.data.CustomerDao - Creating database table A01203138_Customers
+2021-02-25 20:22:03.212 [main] DEBUG a01203138.db.Dao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 20:22:03.234 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 20:24:27.593 [main] DEBUG a01203138.db.Dao - INSERT INTO A01203138_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-02-25 20:24:36.134 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T04:24:35.302345300Z
+2021-02-25 20:24:36.139 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 20:24:36.154 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 20:24:36.226 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 20:24:36.226 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 20:24:36.227 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 20:24:36.227 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 20:24:37.226 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 20:24:37.580 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:24:37.624 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:24:37.686 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:24:37.689 [main] DEBUG a01203138.db.Dao - drop table A01203138_Customers
+2021-02-25 20:24:37.712 [main] DEBUG a01203138.data.CustomerDao - Creating database table A01203138_Customers
+2021-02-25 20:24:37.721 [main] DEBUG a01203138.db.Dao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 20:24:37.733 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 20:25:58.312 [main] DEBUG a01203138.db.Dao - INSERT INTO A01203138_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-02-25 20:26:40.925 [main] ERROR a01203138.Lab7 - null
+2021-02-25 20:26:40.926 [main] INFO  a01203138.Lab7 - End: 2021-02-26T04:26:40.926407300Z
+2021-02-25 20:26:40.926 [main] INFO  a01203138.Lab7 - Duration: 125624 ms
+2021-02-25 20:28:51.176 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T04:28:49.841712300Z
+2021-02-25 20:28:51.191 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 20:28:51.199 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 20:28:51.500 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 20:28:51.500 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 20:28:51.501 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 20:28:51.502 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 20:28:52.643 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 20:28:53.008 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:28:53.058 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:28:53.117 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:28:53.120 [main] DEBUG a01203138.db.Dao - drop table A01203138_Customers
+2021-02-25 20:28:53.135 [main] DEBUG a01203138.data.CustomerDao - Creating database table A01203138_Customers
+2021-02-25 20:28:53.139 [main] DEBUG a01203138.db.Dao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 20:28:53.154 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 20:28:53.180 [main] DEBUG a01203138.db.Dao - INSERT INTO A01203138_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-02-25 20:28:53.250 [main] ERROR a01203138.Lab7 - com.microsoft.sqlserver.jdbc.SQLServerException: String or binary data would be truncated.
+2021-02-25 20:28:53.251 [main] INFO  a01203138.Lab7 - End: 2021-02-26T04:28:53.251480600Z
+2021-02-25 20:28:53.252 [main] INFO  a01203138.Lab7 - Duration: 3409 ms
+2021-02-25 20:33:51.758 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T04:33:50.839652100Z
+2021-02-25 20:33:51.768 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 20:33:51.783 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 20:33:52.019 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 20:33:52.019 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 20:33:52.019 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 20:33:52.019 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 20:33:53.304 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 20:33:53.655 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:33:53.709 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:33:53.763 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:33:53.766 [main] DEBUG a01203138.db.Dao - drop table A01203138_Customers
+2021-02-25 20:33:53.777 [main] DEBUG a01203138.data.CustomerDao - Creating database table A01203138_Customers
+2021-02-25 20:33:53.795 [main] DEBUG a01203138.db.Dao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 20:33:53.816 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 20:33:53.845 [main] DEBUG a01203138.db.Dao - INSERT INTO A01203138_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-02-25 20:33:53.906 [main] ERROR a01203138.Lab7 - com.microsoft.sqlserver.jdbc.SQLServerException: String or binary data would be truncated.
+2021-02-25 20:33:53.908 [main] INFO  a01203138.Lab7 - End: 2021-02-26T04:33:53.907727600Z
+2021-02-25 20:33:53.908 [main] INFO  a01203138.Lab7 - Duration: 3068 ms
+2021-02-25 20:38:21.973 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T04:38:20.745904500Z
+2021-02-25 20:38:21.981 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 20:38:21.995 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 20:38:22.164 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 20:38:22.166 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 20:38:22.166 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 20:38:22.166 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 20:38:22.996 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 20:38:23.246 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:38:23.286 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:38:23.337 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:38:23.339 [main] DEBUG a01203138.db.Dao - drop table A01203138_Customers
+2021-02-25 20:38:23.358 [main] DEBUG a01203138.data.CustomerDao - Creating database table A01203138_Customers
+2021-02-25 20:38:23.367 [main] DEBUG a01203138.db.Dao - CREATE TABLE A01203138_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(10), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 20:38:23.377 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 20:38:23.390 [main] DEBUG a01203138.db.Dao - INSERT INTO A01203138_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-02-25 20:38:23.434 [main] ERROR a01203138.Lab7 - com.microsoft.sqlserver.jdbc.SQLServerException: String or binary data would be truncated.
+2021-02-25 20:38:23.434 [main] INFO  a01203138.Lab7 - End: 2021-02-26T04:38:23.434139600Z
+2021-02-25 20:38:23.434 [main] INFO  a01203138.Lab7 - Duration: 2688 ms
+2021-02-25 20:40:46.976 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T04:40:45.938412900Z
+2021-02-25 20:40:46.985 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 20:40:46.998 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 20:40:47.191 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 20:40:47.191 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 20:40:47.192 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 20:40:47.192 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 20:40:48.246 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 20:40:48.544 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:40:48.596 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:40:48.630 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:40:48.632 [main] DEBUG a01203138.db.Dao - drop table A01203138_Customers
+2021-02-25 20:40:48.653 [main] DEBUG a01203138.data.CustomerDao - Creating database table A01203138_Customers
+2021-02-25 20:40:48.670 [main] DEBUG a01203138.db.Dao - CREATE TABLE A01203138_Customers(id VARCHAR(16), firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(10), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 20:40:48.688 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 20:40:48.717 [main] DEBUG a01203138.db.Dao - INSERT INTO A01203138_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-02-25 20:40:48.783 [main] ERROR a01203138.Lab7 - com.microsoft.sqlserver.jdbc.SQLServerException: String or binary data would be truncated.
+2021-02-25 20:40:48.784 [main] INFO  a01203138.Lab7 - End: 2021-02-26T04:40:48.784376700Z
+2021-02-25 20:40:48.785 [main] INFO  a01203138.Lab7 - Duration: 2845 ms
+2021-02-25 20:41:36.851 [main] INFO  a01203138.Lab7 - Start: 2021-02-26T04:41:35.383139200Z
+2021-02-25 20:41:36.867 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-02-25 20:41:36.892 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-02-25 20:41:37.230 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-02-25 20:41:37.231 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-02-25 20:41:37.232 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-02-25 20:41:37.233 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-02-25 20:41:38.291 [main] DEBUG a01203138.db.Database - Database connected
+2021-02-25 20:41:38.572 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:41:38.609 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:41:38.648 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-02-25 20:41:38.650 [main] DEBUG a01203138.db.Dao - drop table A01203138_Customers
+2021-02-25 20:41:38.670 [main] DEBUG a01203138.data.CustomerDao - Creating database table A01203138_Customers
+2021-02-25 20:41:38.684 [main] DEBUG a01203138.db.Dao - CREATE TABLE A01203138_Customers(id VARCHAR(16), firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(10), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2021-02-25 20:41:38.706 [main] DEBUG a01203138.data.CustomerDao - Inserting the customers
+2021-02-25 20:41:38.728 [main] DEBUG a01203138.db.Dao - INSERT INTO A01203138_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-02-25 20:41:38.779 [main] ERROR a01203138.Lab7 - com.microsoft.sqlserver.jdbc.SQLServerException: String or binary data would be truncated.
+2021-02-25 20:41:38.779 [main] INFO  a01203138.Lab7 - End: 2021-02-26T04:41:38.779172200Z
+2021-02-25 20:41:38.780 [main] INFO  a01203138.Lab7 - Duration: 3396 ms

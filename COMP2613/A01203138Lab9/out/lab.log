@@ -1,0 +1,43 @@
+2021-03-08 20:53:12.092 [main] INFO  a01203138.Lab9 - Start: 2021-03-09T04:53:11.521877100Z
+2021-03-08 20:53:12.098 [main] DEBUG a01203138.db.Database - Loading database properties from db.properties
+2021-03-08 20:53:12.100 [main] DEBUG a01203138.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-03-08 20:53:12.201 [main] DEBUG a01203138.db.Database - Driver loaded
+2021-03-08 20:53:12.202 [main] DEBUG a01203138.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2021-03-08 20:53:12.202 [main] DEBUG a01203138.db.Database - DB USER=javastudent
+2021-03-08 20:53:12.202 [main] DEBUG a01203138.db.Database - DB URL=compjava
+2021-03-08 20:53:12.956 [main] DEBUG a01203138.db.Database - Database connected
+2021-03-08 20:53:13.182 [main] DEBUG a01203138.db.Database - Found the target table named: A01203138_Customers
+2021-03-08 20:53:13.187 [main] INFO  a01203138.CustomerDaoTester - Getting the customer IDs
+2021-03-08 20:53:13.188 [main] DEBUG a01203138.data.customer.CustomerDao - SELECT id FROM A01203138_Customers
+2021-03-08 20:53:13.208 [main] DEBUG a01203138.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2021-03-08 20:53:13.209 [main] INFO  a01203138.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2021-03-08 20:53:13.210 [main] INFO  a01203138.CustomerDaoTester - 1
+2021-03-08 20:53:13.212 [main] DEBUG a01203138.data.customer.CustomerDao - SELECT * FROM A01203138_Customers WHERE id = 1
+2021-03-08 20:53:13.235 [main] INFO  a01203138.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2021-03-08 20:53:13.235 [main] INFO  a01203138.CustomerDaoTester - 2
+2021-03-08 20:53:13.236 [main] DEBUG a01203138.data.customer.CustomerDao - SELECT * FROM A01203138_Customers WHERE id = 2
+2021-03-08 20:53:13.257 [main] INFO  a01203138.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2021-03-08 20:53:13.257 [main] INFO  a01203138.CustomerDaoTester - 3
+2021-03-08 20:53:13.261 [main] DEBUG a01203138.data.customer.CustomerDao - SELECT * FROM A01203138_Customers WHERE id = 3
+2021-03-08 20:53:13.280 [main] INFO  a01203138.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2021-03-08 20:53:13.281 [main] INFO  a01203138.CustomerDaoTester - 4
+2021-03-08 20:53:13.281 [main] DEBUG a01203138.data.customer.CustomerDao - SELECT * FROM A01203138_Customers WHERE id = 4
+2021-03-08 20:53:13.301 [main] INFO  a01203138.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2021-03-08 20:53:13.302 [main] INFO  a01203138.CustomerDaoTester - 5
+2021-03-08 20:53:13.310 [main] DEBUG a01203138.data.customer.CustomerDao - SELECT * FROM A01203138_Customers WHERE id = 5
+2021-03-08 20:53:13.331 [main] INFO  a01203138.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2021-03-08 20:53:13.351 [main] INFO  a01203138.CustomerDaoTester - 5
+2021-03-08 20:53:13.537 [main] INFO  a01203138.Lab9 - End: 2021-03-09T04:53:13.537741Z
+2021-03-08 20:53:13.542 [main] INFO  a01203138.Lab9 - Duration: 2015 ms
+2021-03-08 20:53:25.089 [AWT-EventQueue-0] DEBUG a01203138.data.customer.CustomerDao - SELECT id FROM A01203138_Customers
+2021-03-08 20:53:25.152 [AWT-EventQueue-0] DEBUG a01203138.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2021-03-08 20:53:25.153 [AWT-EventQueue-0] DEBUG a01203138.data.customer.CustomerDao - SELECT * FROM A01203138_Customers WHERE id = 2
+2021-03-08 20:53:28.074 [AWT-EventQueue-0] DEBUG a01203138.data.customer.CustomerDao - SELECT id FROM A01203138_Customers
+2021-03-08 20:53:28.097 [AWT-EventQueue-0] DEBUG a01203138.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2021-03-08 20:53:28.098 [AWT-EventQueue-0] DEBUG a01203138.data.customer.CustomerDao - SELECT * FROM A01203138_Customers WHERE id = 2
+2021-03-08 20:53:30.625 [AWT-EventQueue-0] DEBUG a01203138.data.customer.CustomerDao - SELECT id FROM A01203138_Customers
+2021-03-08 20:53:30.649 [AWT-EventQueue-0] DEBUG a01203138.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2021-03-08 20:53:30.650 [AWT-EventQueue-0] DEBUG a01203138.data.customer.CustomerDao - SELECT * FROM A01203138_Customers WHERE id = 4
+2021-03-08 20:53:36.098 [AWT-EventQueue-0] DEBUG a01203138.data.customer.CustomerDao - SELECT id FROM A01203138_Customers
+2021-03-08 20:53:36.119 [AWT-EventQueue-0] DEBUG a01203138.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2021-03-08 20:53:36.120 [AWT-EventQueue-0] DEBUG a01203138.data.customer.CustomerDao - SELECT * FROM A01203138_Customers WHERE id = 3

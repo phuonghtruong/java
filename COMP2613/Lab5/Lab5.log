@@ -1,0 +1,45 @@
+2021-02-09 22:47:56.038 [main] INFO  a01203138.Lab5 - 2021-02-10T06:47:56.027938500Z
+2021-02-09 22:47:56.068 [main] INFO  a01203138.io.CustomerReport - Customer Report
+2021-02-09 22:47:56.068 [main] INFO  a01203138.io.CustomerReport - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-02-09 22:47:56.073 [main] INFO  a01203138.io.CustomerReport - #. ID         First name      Last name  Street                    City       Postal Code     Phone           Email                     Joined Date    
+2021-02-09 22:47:56.074 [main] INFO  a01203138.io.CustomerReport - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-02-09 22:47:56.088 [main] INFO  a01203138.io.CustomerReport - 1  000001     Fred            Fish       5707 Sidley St            Burnaby    V5J 5E6         (604) 433-5004  fredfish@imperial.net     Mar 22 2008    
+2021-02-09 22:47:56.093 [main] INFO  a01203138.io.CustomerReport - 5  000005     Mark            Chan       3766 E 1st Ave            Burnaby    V5C 3V9         (604) 293-1022  mchan@hc.com              Apr 01 2010    
+2021-02-09 22:47:56.096 [main] INFO  a01203138.io.CustomerReport - 3  000003     Conrad          Washington 13479 King George Blvd    Surrey     V3T 2T8         (604) 588-4988  cwash@daytona.net         Jul 12 2011    
+2021-02-09 22:47:56.098 [main] INFO  a01203138.io.CustomerReport - 2  000002     Laurie          Nash       2816 Commercial Dr        Vancouver  V5N 4C6         (604) 876-0182  laurieeenash@modern.com   Aug 28 2014    
+2021-02-09 22:47:56.101 [main] INFO  a01203138.io.CustomerReport - 4  000004     Jeanette        Price      21000 Westminster Hwy     Richmond   V6V 2S9         (604) 276-2552  priceizrite@pacific.com   Oct 03 2015    
+2021-02-09 22:47:56.101 [main] INFO  a01203138.io.CustomerReport - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-02-09 22:47:56.102 [main] INFO  a01203138.Lab5 - 2021-02-10T06:47:56.101992800Z
+2021-02-09 22:47:56.103 [main] INFO  a01203138.Lab5 - Duration: 74 ms
+2021-02-09 22:49:04.864 [main] INFO  a01203138.Lab5 - 2021-02-10T06:49:04.857513600Z
+2021-02-09 22:49:04.870 [main] ERROR a01203138.Lab5 - customers.txt (The system cannot find the file specified)
+2021-02-09 22:49:04.871 [main] INFO  a01203138.Lab5 - 2021-02-10T06:49:04.871651900Z
+2021-02-09 22:49:04.871 [main] INFO  a01203138.Lab5 - Duration: 14 ms
+2021-02-09 22:50:09.940 [main] INFO  a01203138.Lab5 - 2021-02-10T06:50:09.927581500Z
+2021-02-09 22:50:09.949 [main] ERROR a01203138.Lab5 - customers.txt (The system cannot find the file specified)
+2021-02-09 23:07:18.591 [main] INFO  a01203138.Lab5 - 2021-02-10T07:07:18.578122400Z
+2021-02-09 23:07:18.634 [main] INFO  a01203138.io.CustomerReport - Customer Report
+2021-02-09 23:07:18.634 [main] INFO  a01203138.io.CustomerReport - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-02-09 23:07:18.638 [main] INFO  a01203138.io.CustomerReport - #. ID         First name      Last name  Street                    City       Postal Code     Phone           Email                     Joined Date    
+2021-02-09 23:07:18.639 [main] INFO  a01203138.io.CustomerReport - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-02-09 23:07:18.657 [main] INFO  a01203138.io.CustomerReport - 1  000001     Fred            Fish       5707 Sidley St            Burnaby    V5J 5E6         (604) 433-5004  fredfish@imperial.net     Mar 22 2008    
+2021-02-09 23:07:18.663 [main] INFO  a01203138.io.CustomerReport - 5  000005     Mark            Chan       3766 E 1st Ave            Burnaby    V5C 3V9         (604) 293-1022  mchan@hc.com              Apr 01 2010    
+2021-02-09 23:07:18.667 [main] INFO  a01203138.io.CustomerReport - 3  000003     Conrad          Washington 13479 King George Blvd    Surrey     V3T 2T8         (604) 588-4988  cwash@daytona.net         Jul 12 2011    
+2021-02-09 23:07:18.669 [main] INFO  a01203138.io.CustomerReport - 2  000002     Laurie          Nash       2816 Commercial Dr        Vancouver  V5N 4C6         (604) 876-0182  laurieeenash@modern.com   Aug 28 2014    
+2021-02-09 23:07:18.672 [main] INFO  a01203138.io.CustomerReport - 4  000004     Jeanette        Price      21000 Westminster Hwy     Richmond   V6V 2S9         (604) 276-2552  priceizrite@pacific.com   Oct 03 2015    
+2021-02-09 23:07:18.673 [main] INFO  a01203138.io.CustomerReport - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-02-09 23:07:18.673 [main] INFO  a01203138.Lab5 - 2021-02-10T07:07:18.673632Z
+2021-02-09 23:07:18.675 [main] INFO  a01203138.Lab5 - Duration: 95 ms
+2021-02-10 18:42:20.458 [main] INFO  a01203138.Lab5 - 2021-02-11T02:42:20.450321Z
+2021-02-10 18:42:20.486 [main] INFO  a01203138.io.CustomerReport - Customer Report
+2021-02-10 18:42:20.487 [main] INFO  a01203138.io.CustomerReport - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-02-10 18:42:20.492 [main] INFO  a01203138.io.CustomerReport - #. ID         First name      Last name  Street                    City       Postal Code     Phone           Email                     Joined Date    
+2021-02-10 18:42:20.492 [main] INFO  a01203138.io.CustomerReport - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-02-10 18:42:20.514 [main] INFO  a01203138.io.CustomerReport - 1  000001     Fred            Fish       5707 Sidley St            Burnaby    V5J 5E6         (604) 433-5004  fredfish@imperial.net     Mar 22 2008    
+2021-02-10 18:42:20.517 [main] INFO  a01203138.io.CustomerReport - 5  000005     Mark            Chan       3766 E 1st Ave            Burnaby    V5C 3V9         (604) 293-1022  mchan@hc.com              Apr 01 2010    
+2021-02-10 18:42:20.519 [main] INFO  a01203138.io.CustomerReport - 3  000003     Conrad          Washington 13479 King George Blvd    Surrey     V3T 2T8         (604) 588-4988  cwash@daytona.net         Jul 12 2011    
+2021-02-10 18:42:20.521 [main] INFO  a01203138.io.CustomerReport - 2  000002     Laurie          Nash       2816 Commercial Dr        Vancouver  V5N 4C6         (604) 876-0182  laurieeenash@modern.com   Aug 28 2014    
+2021-02-10 18:42:20.524 [main] INFO  a01203138.io.CustomerReport - 4  000004     Jeanette        Price      21000 Westminster Hwy     Richmond   V6V 2S9         (604) 276-2552  priceizrite@pacific.com   Oct 03 2015    
+2021-02-10 18:42:20.524 [main] INFO  a01203138.io.CustomerReport - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2021-02-10 18:42:20.524 [main] INFO  a01203138.Lab5 - 2021-02-11T02:42:20.524900800Z
+2021-02-10 18:42:20.525 [main] INFO  a01203138.Lab5 - Duration: 74 ms
